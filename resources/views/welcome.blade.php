@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>GorientFoods/welcome...</title>
         <!-- Fonts -->
         <link rel="stylesheet" href="css/app.css">
         <link rel="stylesheet" href="css/styles.css">
@@ -12,16 +12,28 @@
     </head>
     <body>
        <header>
-           <div>
-               <div>
-                    <div>
-                        OlaOla
+           <section id="RV445FFfe">
+               <div id="RVsdgt445FFfe">
+                    <div class="ERV445FFfe">
+                        <strong>
+                            G-ORIENT FOODS (NIG) LTD
+                        </strong>
                     </div>
-                    <div>
-                        OlaOla
+
+                    <div class="ERV445FFfe">
+                        <address>
+                            22, ADEOLA STREET, BOLA EXTENSION,
+                            <small>OJOO, IBADAN, OYO STATE.</small>
+                        </address>
+                    </div>
+
+                    <div class="ERV445FFfe">
+                        <input type="number" name="phone contact" value="08066417337" readonly>
+                        <input type="number" name="phone contact" value="07038281375" readonly>
+                        <label for="">Customer care</label>
                     </div>
                </div>
-           </div>
+            </section>
            <nav>
         <div  class="mainNav">
             <div id="icon" class="non" >
@@ -31,7 +43,7 @@
             </div>
             <div class="navnav d-flex justify-content-end"> 
                 <ul>
-                    <a href=""><li>About Rixona</li></a>
+                    <a href=""><li>About Us</li></a>
                     <a href=""><li>Product</li></a>
                     <a href=""><li>Quality</li></a>
                 </ul>
@@ -55,17 +67,37 @@
        </div>
 
        <main id="siteContent ">
+           <section class="company_details">
+               <article>
+                   <h2>vision</h2>
+                   <div>
+                       <p>
+                           The vision of our company is to produce a highly rated product among other brands of poundo yam. Best quality at affordable price is our watchword.
+                       </p>
+                   </div>
+               </article>
+               <article>
+                   <h2>mission</h2>
+                   <div>
+                       <p>The mission of every organization is to make profit and our company is not left out. At the same time, it will create avenue for others (distributor and other middlemen) to make profit, create employment opportunity for the teeming populace, and utilize our yam tuber, thereby patronizing our local farmers and increasing their turnover to produce a product of high quality at a lower price that everyone will be able to afford and be willing to buy.</p>
+                   </div>
+               </article>
+               <article>
+                   <h2>objective</h2>
+                   <div>
+                       <p>The primary objective is to put smile on people's face especially our mothers who go through the rigor of pounding the yam whenever they think of eating pounded yam. We want to greatly bridge the stress they will pass through in preparing pounded yam - a meal that cuts across the country as a special dish, which make them avoid this desired meal.</p>
+                   </div>
+               </article>
+           </section>
          <div class="main_wrapper">
              <section class="mt-3 WEriut3">
                  <div class="stmg">
-                    <header class="main_area_title">
                         <h3 class="type">Foodservice</h3>                     
-                    </header>
                     <p>
-                        Rixona offers a wide variety of potato flakes and potato granules that are tasty, healthy 
+                        Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy 
                         and quick and easy to prepare.
                     </p>
-                    <a class="read-more" href="http://rixona.aviko.accept.axendo.net/en/products/foodservice" 
+                    <a class="read-more" href="http://" 
                     target="_self">Read more
                     </a>
                  </div>
@@ -73,14 +105,12 @@
 
              <section class="mt-3 WEriut3">
              <div class="stmg">
-                    <header class="main_area_title">
                         <h3 class="type">Coldservice</h3>                     
-                    </header>
                     <p>
-                        Rixona offers a wide variety of potato flakes and potato granules that are tasty, healthy 
+                        Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy 
                         and quick and easy to prepare.
                     </p>
-                    <a class="read-more" href="http://rixona.aviko.accept.axendo.net/en/products/foodservice" 
+                    <a class="read-more" href="http://" 
                     target="_self">Read more
                     </a>
                  </div>
@@ -88,14 +118,12 @@
 
              <section class="mt-3 WEriut3">
              <div class="stmg">
-                    <header class="main_area_title">
                         <h3 class="type">Eatservice</h3>                     
-                    </header>
                     <p>
-                        Rixona offers a wide variety of potato flakes and potato granules that are tasty, healthy 
+                        Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy 
                         and quick and easy to prepare.
                     </p>
-                    <a class="read-more" href="http://rixona.aviko.accept.axendo.net/en/products/foodservice" 
+                    <a class="read-more" href="http://" 
                     target="_self">Read more
                     </a>
                  </div>
@@ -103,80 +131,7 @@
          </div>
        </main>
 
-       <footer class="mt-4">
-           <section>
-            <div class="footer_flex">
-               <div>
-                    <h5>Follow us</h5>
-                    <ul class="nav inline-nav icon-list">
-                        <li>
-                            <a href="https://www.linkedin.com/company/aviko/" class="linkedin" target="_blank">
-                            linkedin
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/channel/UCtEHjoTVbS9D92WcP1WhTRw" class="youtube" target="_blank">
-                            youtube
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="">
-                    <ul class="nav footer-bottom-links">
-                        <li class="footer-bottom-link"><a href="/privacy" target="_self">Privacy</a></li>
-                        <li class="footer-bottom-link"><a href="/disclaimer" target="_self">Disclaimer</a></li>
-                        <li class="footer-bottom-link"><a href="/special-pages/sitemap" target="_self">Sitemap</a></li>
-                    </ul>
-                </div>
-            </div>
-
-           <div class="footer_flex">
-                <div>
-                <h5>Rixona</h5>
-                <p><a href="http://www.rixona.com/about-rixona" title="About Rixona">About
-                Rixona</a><br />
-                    <a href="http://www.rixona.com/potato-procurement" title="Potato purchase">Potato
-                purchase</a><br />
-                    <a href="http://www.rixona.com/products" title="Products">Products &amp;
-                Markets</a><br />
-                    <a href="http://www.rixona.com/quality" title="Quality">Quality &amp;
-                Certificates</a><br />
-                    <a href="http://www.rixona.com/csr" title="CSR">CSR</a><br />
-                    <a href="http://www.rixona.com/contact" title="Contact">Contact</a></p>
-                </div>
-            </div>
-
-            <div class="footer_flex">
-                <div>
-                <h5>Directly to: </h5>  
-                    <p>
-                        <a href="http://www.rixona.com/products/foodservice"
-                        title="Foodservice"><span>Foodservice</span></a><br />
-                        <a href="http://www.rixona.com/products/industry"
-                        title="B2B"><span>Industry</span></a><br />
-                        <a href="http://www.rixona.com/products/retail"
-                        title="Retail"><span>Retail</span></a><br />
-                        <span>How it's made</span><br />
-                        <span>Harvest information</span>
-                        <span><br /></span>
-                    </p>
-                </div>
-            </div>
-
-            <div class="footer_flex">
-                <div>
-                    <h5>Websites:</h5> 
-                    <p>
-                        <a href="http://www.rixona.com/working-at" title="Working at">Working at Aviko
-                        Rixona</a><br />
-                        <a href="http://www.cosun.com/home.aspx" target="_blank">Royal
-                        Cosun</a>
-                    </p>   
-                </div>
-            </div>    
-           </section>
-       </footer>
+       @include('BODY.footer')
        <script src="{{asset('js/app.js')}}"></script>
        <script src="{{asset('js/navstyle.js')}}"></script>
     </body>

@@ -1,6 +1,12 @@
-// *{
-//     box-sizing: border-box;
-// }
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #171f1f;
+}
+header{
+    height: 24em;
+}
 // .stmg{
 //     height: 472px;
 //     position: relative;
@@ -11,18 +17,84 @@
 //     padding: 15px;
 //     margin-bottom: 20px;
 //}
+
+
+//ARTICLE CSS
+//****************************************
+section.company_details{
+    display: flex;
+    width: 70rem;
+    margin: 1rem auto;
+    article{
+        h2{
+            text-transform: uppercase;
+        }
+        margin: 0 1em;
+        background-color: #fff;
+        padding: 0.8em;
+    }
+    article:nth-child(1){
+        flex-basis: 2;
+    }
+}
+//________________________________________
+
+
+//HEADER SECTION
+//**********************************************
+    #RVsdgt445FFfe{
+        display: flex;
+        padding: 3rem 0;
+        .ERV445FFfe{
+            margin: 0 1.2em;
+        }
+        .ERV445FFfe:first-child{
+            flex: 2;
+        }
+        .ERV445FFfe:nth-child(2){
+            address{
+                font-size: 1.2rem;
+                font-weight: 900;
+            }
+            small{
+                display: block;
+            }
+        }
+        .ERV445FFfe:last-child{
+            input{
+                display: block;
+                border-radius: 1em;
+                border: 2px solid forestgreen;
+            }
+        }
+    }
+
+//_________________________________________________
+
+
 .main_wrapper{
     display: flex;
     flex-direction: row wrap;
 }
 .WEriut3{
-     background-color: rgb(230, 216, 216);
+     background-color: rgb(245, 207, 207);
      height: 14rem;
      flex: 1;
      margin: 0.8rem;
-     padding: 1.1em 0.4em;
+     padding: 0 0.6em;
+     h3.type{
+        min-height: 40px;
+        background: #26ca17;
+        color: #fff;
+        padding: 0 10px;
+        line-height: 1.5em;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
 }
 
+//**********************MOBILE CSS
 @media only screen and (max-width: 600px) {
     .WEriut3{
         height:18rem ;
@@ -30,23 +102,34 @@
     .main_wrapper{
         flex-direction: column;
     }
-}
-.main_area_title{
-    position: relative;
-    min-height: 40px;
-    h3.type{
-        background: #35afaf;
-        color: #fff;
-        padding: 0 10px;
-        line-height: 1.5em;
-        font-size: 2rem;
-        text-transform: uppercase;
-        margin: 0;
-        font-weight: 400;
+    section.company_details{
+        flex-direction: column;
+        width: 80vw;
+        article{
+        margin-top: 1rem;
+        border-radius: 0.3em;
+        h2{
+            font-size: larger;
+            font-weight: 990;
+        }
+        }
+    }
+    #RV445FFfe{
+        width: 90vw;
+        margin: 1em auto;
+    }
+    #RVsdgt445FFfe{
+        flex-direction: column;
+        padding: 0;
+        .ERV445FFfe{
+            margin-top: 2rem;
+        }
     }
 }
+//_____________________________MOBILE.CSS
+    
  footer{
-    background-image: linear-gradient(to right, red , yellow);
+    background-image: linear-gradient(to right, rgb(77, 32, 32) , yellow);
      padding: 1em 1.2em;
     section{
     display: flex; 

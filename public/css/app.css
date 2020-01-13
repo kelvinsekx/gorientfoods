@@ -1,5 +1,67 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #171f1f;
+}
+
+header {
+  height: 24em;
+}
+
+section.company_details {
+  display: -webkit-box;
+  display: flex;
+  width: 70rem;
+  margin: 1rem auto;
+}
+
+section.company_details article {
+  margin: 0 1em;
+  background-color: #fff;
+  padding: 0.8em;
+}
+
+section.company_details article h2 {
+  text-transform: uppercase;
+}
+
+section.company_details article:nth-child(1) {
+  flex-basis: 2;
+}
+
+#RVsdgt445FFfe {
+  display: -webkit-box;
+  display: flex;
+  padding: 3rem 0;
+}
+
+#RVsdgt445FFfe .ERV445FFfe {
+  margin: 0 1.2em;
+}
+
+#RVsdgt445FFfe .ERV445FFfe:first-child {
+  -webkit-box-flex: 2;
+          flex: 2;
+}
+
+#RVsdgt445FFfe .ERV445FFfe:nth-child(2) address {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+#RVsdgt445FFfe .ERV445FFfe:nth-child(2) small {
+  display: block;
+}
+
+#RVsdgt445FFfe .ERV445FFfe:last-child input {
+  display: block;
+  border-radius: 1em;
+  border: 2px solid forestgreen;
+}
+
 .main_wrapper {
   display: -webkit-box;
   display: flex;
@@ -9,12 +71,23 @@
 }
 
 .WEriut3 {
-  background-color: #e6d8d8;
+  background-color: #f5cfcf;
   height: 14rem;
   -webkit-box-flex: 1;
           flex: 1;
   margin: 0.8rem;
-  padding: 1.1em 0.4em;
+  padding: 0 0.6em;
+}
+
+.WEriut3 h3.type {
+  min-height: 40px;
+  background: #26ca17;
+  color: #fff;
+  padding: 0 10px;
+  line-height: 1.5em;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 600px) {
@@ -27,27 +100,44 @@
     -webkit-box-direction: normal;
             flex-direction: column;
   }
-}
 
-.main_area_title {
-  position: relative;
-  min-height: 40px;
-}
+  section.company_details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    width: 80vw;
+  }
 
-.main_area_title h3.type {
-  background: #35afaf;
-  color: #fff;
-  padding: 0 10px;
-  line-height: 1.5em;
-  font-size: 2rem;
-  text-transform: uppercase;
-  margin: 0;
-  font-weight: 400;
+  section.company_details article {
+    margin-top: 1rem;
+    border-radius: 0.3em;
+  }
+
+  section.company_details article h2 {
+    font-size: larger;
+    font-weight: 990;
+  }
+
+  #RV445FFfe {
+    width: 90vw;
+    margin: 1em auto;
+  }
+
+  #RVsdgt445FFfe {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    padding: 0;
+  }
+
+  #RVsdgt445FFfe .ERV445FFfe {
+    margin-top: 2rem;
+  }
 }
 
 footer {
-  background-image: -webkit-gradient(linear, left top, right top, from(red), to(yellow));
-  background-image: linear-gradient(to right, red, yellow);
+  background-image: -webkit-gradient(linear, left top, right top, from(#4d2020), to(yellow));
+  background-image: linear-gradient(to right, #4d2020, yellow);
   padding: 1em 1.2em;
 }
 
