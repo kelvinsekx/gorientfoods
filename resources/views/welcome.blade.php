@@ -15,9 +15,7 @@
            <section id="RV445FFfe">
                <div id="RVsdgt445FFfe">
                     <div class="ERV445FFfe">
-                        <strong>
-                            G-ORIENT FOODS (NIG) LTD
-                        </strong>
+                       <img src="{{asset('/images/brand.jpg')}}" alt="company brand" width="192" height="90">
                     </div>
 
                     <div class="ERV445FFfe">
@@ -28,39 +26,13 @@
                     </div>
 
                     <div class="ERV445FFfe">
-                        <input type="number" name="phone contact" value="08066417337" readonly>
-                        <input type="number" name="phone contact" value="07038281375" readonly>
+                        <span id="phone contact">07038281375,</span>
+                        <span id="phone contact">07038281375</span>
                         <label for="">Customer care</label>
                     </div>
                </div>
             </section>
-           <nav>
-        <div  class="mainNav">
-            <div id="icon" class="non" >
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="navnav d-flex justify-content-end"> 
-                <ul>
-                    <a href=""><li>About Us</li></a>
-                    <a href=""><li>Product</li></a>
-                    <a href=""><li>Quality</li></a>
-                </ul>
-                <a href="" class="pl-2 brand">OLAOLA</a>
-            </div>
-        </div>
-        <div>
-        <div class="magic">
-            <p>About our company:</p>
-            <p>What we do</p>
-            <hr>
-            <br>
-            <p>Know more about us here</p>
-            <p>Life is good with poundo yam</p>
-        </div>
-        </div>
-    </nav>
+            @include('parts.navbarsample')
        </header>
        <div id="slider">
            <!-- <img src=images/fire.png alt="logo" srcset=""> -->
@@ -89,12 +61,31 @@
                    </div>
                </article>
            </section>
+
          <div class="main_wrapper">
-             <section class="mt-3 WEriut3">
+             <section class="mt-5 WEriut3_2">
+             <div>
+             <picture>
+                <source media="(max-width: 799px)" srcset="{{asset('images/smallproduct2.jpg')}}" >
+                <source media="(min-width: 800px)" srcset="{{asset('images/product1.jpg')}}">
+                <img src="{{asset('images/product1.jpg')}}" alt="Adebisi Poundo yam flour">
+             </picture>
+            </div>
                  <div class="stmg">
-                        <h3 class="type">Foodservice</h3>                     
+                        <h3 class="type">Our poundo yam</h3>                     
                     <p>
-                        Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy 
+                        Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy .
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos provident voluptate quos ullam? Esse tempore excepturi corporis recusandae illum in, aperiam suscipit. Exercitationem dignissimos aliquid libero magnam molestias itaque?
+                        and quick and easy to prepare.
+                    </p>
+                    <p>
+                        Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy .
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos provident voluptate quos ullam? Esse tempore excepturi corporis recusandae illum in, aperiam suscipit. Exercitationem dignissimos aliquid libero magnam molestias itaque?
+                        and quick and easy to prepare.
+                    </p>
+                    <p>
+                        Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy .
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos provident voluptate quos ullam? Esse tempore excepturi corporis recusandae illum in, aperiam suscipit. Exercitationem dignissimos aliquid libero magnam molestias itaque?
                         and quick and easy to prepare.
                     </p>
                     <a class="read-more" href="http://" 
@@ -103,24 +94,27 @@
                  </div>
              </section>
 
-             <section class="mt-3 WEriut3">
+             <section class="mt-5 WEriut3_1">
+              <div class="product_img"><picture>
+                <source media="(max-width: 799px)" srcset="{{asset('images/smallproduct1.jpg')}}" width="400" height="200">
+                <source media="(min-width: 800px)" srcset="{{asset('images/product2.jpg')}}" width="600" height="400">
+                <img src="{{asset('images/product2.jpg')}}" alt="Adebisi Poundo yam flour">
+             </picture></div>
              <div class="stmg">
-                        <h3 class="type">Coldservice</h3>                     
-                    <p>
-                        Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy 
+                        <h3 class="type">Our plantain</h3>                     
+                        <p>
+                        Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy .
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos provident voluptate quos ullam? Esse tempore excepturi corporis recusandae illum in, aperiam suscipit. Exercitationem dignissimos aliquid libero magnam molestias itaque?
                         and quick and easy to prepare.
                     </p>
-                    <a class="read-more" href="http://" 
-                    target="_self">Read more
-                    </a>
-                 </div>
-             </section>
-
-             <section class="mt-3 WEriut3">
-             <div class="stmg">
-                        <h3 class="type">Eatservice</h3>                     
                     <p>
-                        Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy 
+                        Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy .
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos provident voluptate quos ullam? Esse tempore excepturi corporis recusandae illum in, aperiam suscipit. Exercitationem dignissimos aliquid libero magnam molestias itaque?
+                        and quick and easy to prepare.
+                    </p>
+                    <p>
+                        Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy .
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos provident voluptate quos ullam? Esse tempore excepturi corporis recusandae illum in, aperiam suscipit. Exercitationem dignissimos aliquid libero magnam molestias itaque?
                         and quick and easy to prepare.
                     </p>
                     <a class="read-more" href="http://" 

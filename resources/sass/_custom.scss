@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -45,6 +46,7 @@ section.company_details{
     #RVsdgt445FFfe{
         display: flex;
         padding: 3rem 0;
+        width: 94vw;
         .ERV445FFfe{
             margin: 0 1.2em;
         }
@@ -61,10 +63,11 @@ section.company_details{
             }
         }
         .ERV445FFfe:last-child{
-            input{
+            span{
                 display: block;
                 border-radius: 1em;
                 border: 2px solid forestgreen;
+                padding: 0.4em 1em;
             }
         }
     }
@@ -73,34 +76,110 @@ section.company_details{
 
 
 .main_wrapper{
-    display: flex;
-    flex-direction: row wrap;
+    //
 }
-.WEriut3{
-     background-color: rgb(245, 207, 207);
-     height: 14rem;
-     flex: 1;
-     margin: 0.8rem;
-     padding: 0 0.6em;
-     h3.type{
-        min-height: 40px;
-        background: #26ca17;
-        color: #fff;
-        padding: 0 10px;
-        line-height: 1.5em;
-        font-size: 2rem;
-        text-transform: uppercase;
-        font-weight: 400;
+.WEriut3_1 div img{
+    width: 40vw;
+}
+.WEriut3_2 div img{
+    width: 40vw;
+}
+.WEriut3_1{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    
+    // .product_img{
+    //     img{
+    //         margin-left: 2em;  
+    //     }
+    //     margin-left: 2em;
+    // }
+    .stmg{
+        background-color: green;
+        margin-left: 3rem;
+    }
+    h3.type{
+       min-height: 40px;
+       background: #26ca17;
+       color: #fff;
+       padding: 0 10px;
+       line-height: 1.5em;
+       font-size: 2rem;
+       text-transform: uppercase;
+       font-weight: 400;
+   }
+}
+.WEriut3_2{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    // .product_img{
+    //     img{
+    //         margin-left: 2em;  
+    //     }
+    //     margin-left: 2em;
+    // }
+    .stmg{
+        background-color: green;
+        margin-right: 3rem;
+    }
+    h3.type{
+       min-height: 40px;
+       background: #26ca17;
+       color: #fff;
+       padding: 0 10px;
+       line-height: 1.5em;
+       font-size: 2rem;
+       text-transform: uppercase;
+       font-weight: 400;
+   }
+}
+
+    
+ footer{
+    background-image: linear-gradient(to right, rgb(77, 32, 32) , yellow);
+     padding: 1em 1.2em;
+    section{
+    display: flex; 
+    .footer_flex{
+        flex: 2;
+    }  
     }
 }
 
+
+
+
 //**********************MOBILE CSS
 @media only screen and (max-width: 600px) {
-    .WEriut3{
-        height:18rem ;
-    }
     .main_wrapper{
-        flex-direction: column;
+        text-align: center;
+        .WEriut3_1{
+            width: 90vw;
+            flex-direction: column;
+            img{
+                width: 80vw;
+            }
+            .stmg{
+                margin: 0;
+                margin-top: 1rem;
+            }
+        }
+        .WEriut3_2{
+            width: 90vw;
+            flex-direction: column;
+            text-align: center;
+            img{
+                width: 80vw;
+            }
+            .stmg{
+                margin: 0;
+                margin-top: 1rem;
+            }
+        }
     }
     section.company_details{
         flex-direction: column;
@@ -117,24 +196,19 @@ section.company_details{
     #RV445FFfe{
         width: 90vw;
         margin: 1em auto;
+        text-align: center;
     }
     #RVsdgt445FFfe{
         flex-direction: column;
         padding: 0;
+        .ERV445FFfe:nth-child(2){
+            address{
+                font-size: 1rem;
+            }
+        }
         .ERV445FFfe{
             margin-top: 2rem;
         }
     }
 }
 //_____________________________MOBILE.CSS
-    
- footer{
-    background-image: linear-gradient(to right, rgb(77, 32, 32) , yellow);
-     padding: 1em 1.2em;
-    section{
-    display: flex; 
-    .footer_flex{
-        flex: 2;
-    }  
-    }
-}
