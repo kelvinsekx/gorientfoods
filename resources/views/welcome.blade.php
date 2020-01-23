@@ -66,9 +66,9 @@
              <section class="mt-5 WEriut3_2">
              <div>
              <picture>
-                <source media="(max-width: 799px)" srcset="{{asset('images/smallproduct2.jpg')}}" >
-                <source media="(min-width: 800px)" srcset="{{asset('images/product1.jpg')}}">
-                <img src="{{asset('images/product1.jpg')}}" alt="Adebisi Poundo yam flour">
+                <source media="(max-width: 799px)" srcset="{{asset('/images/smallproduct2.jpg')}}" >
+                <source media="(min-width: 800px)" srcset="{{asset('/images/product1.jpg')}}">
+                <img src="{{asset('/images/product1.jpg')}}" alt="Adebisi Poundo yam flour">
              </picture>
             </div>
                  <div class="stmg">
@@ -96,12 +96,12 @@
 
              <section class="mt-5 WEriut3_1">
               <div class="product_img"><picture>
-                <source media="(max-width: 799px)" srcset="{{asset('images/smallproduct1.jpg')}}" width="400" height="200">
-                <source media="(min-width: 800px)" srcset="{{asset('images/product2.jpg')}}" width="600" height="400">
-                <img src="{{asset('images/product2.jpg')}}" alt="Adebisi Poundo yam flour">
+                <source media="(max-width: 799px)" srcset="{{asset('/images/smallproduct1.jpg')}}" width="400" height="200">
+                <source media="(min-width: 800px)" srcset="{{asset('/images/product2.jpg')}}" width="600" height="400">
+                <img src="{{asset('/images/product2.jpg')}}" alt="Adebisi Poundo yam flour">
              </picture></div>
              <div class="stmg">
-                        <h3 class="type">Our plantain</h3>                     
+                        <h3 class="type">Our plantain flour</h3>
                         <p>
                         Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy .
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos provident voluptate quos ullam? Esse tempore excepturi corporis recusandae illum in, aperiam suscipit. Exercitationem dignissimos aliquid libero magnam molestias itaque?
