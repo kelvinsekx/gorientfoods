@@ -32,7 +32,7 @@
                     </div>
                </div>
             </section>
-            @include('parts.navbarsample')
+            @include('PARTS.navbarsample')
        </header>
        <div id="slider">
            <!-- <img src=images/fire.png alt="logo" srcset=""> -->
