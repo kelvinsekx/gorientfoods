@@ -1,37 +1,9 @@
 @extends('app')
 @section('content')
-<!-- <div class="slideshow-container">
-            <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="{{asset('/images/product1.jpg')}}" alt="Adebisi Poundo yam flour">
-            <div class="text">Caption Text</div>
-            </div>
 
-            <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="{{asset('/images/product1.jpg')}}" alt="Adebisi Poundo yam flour">
-            <div class="text">Caption Two</div>
-            </div>
-
-            <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="{{asset('/images/product1.jpg')}}" alt="Adebisi Poundo yam flour">
-            <div class="text">Caption Three</div>
-        </div>
-        
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    </div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div> -->
+</div>
  <div id="slider">
-     @{{hey}}
+     <images-carousel></images-carousel>
  </div>
        <main id="siteContent ">
            <section class="company_details">
@@ -45,6 +17,7 @@
                </article>
                <article>
                    <h2>mission</h2>
+                   
                    <div>
                        <p>The mission of every organization is to make profit and our company is not left out. At the same time, it will create avenue for others (distributor and other middlemen) to make profit, create employment opportunity for the teeming populace, and utilize our yam tuber, thereby patronizing our local farmers and increasing their turnover to produce a product of high quality at a lower price that everyone will be able to afford and be willing to buy.</p>
                    </div>
@@ -69,20 +42,12 @@
                  <div class="stmg">
                         <h3 class="type">Our poundo yam</h3>                     
                     <p>
-                        Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy .
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos provident voluptate quos ullam? Esse tempore excepturi corporis recusandae illum in, aperiam suscipit. Exercitationem dignissimos aliquid libero magnam molestias itaque?
-                        and quick and easy to prepare.
+                        Ade-Bisi Poundo Yam is also known as iyan, a product made from selected yam tubers for our clientele with a gourmet quality instant iyan for the whole family.Our iyan can be ready to serve within 5 minutes.
                     </p>
                     <p>
-                        Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy .
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos provident voluptate quos ullam? Esse tempore excepturi corporis recusandae illum in, aperiam suscipit. Exercitationem dignissimos aliquid libero magnam molestias itaque?
-                        and quick and easy to prepare.
+                        As a family owned company, we know how busy our lives are today. Witg that in mind, we wanted to make a product that would accomodate the modern family, and still provide the dame quality delicious iyan many of us grew up eating.
                     </p>
-                    <p>
-                        Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy .
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos provident voluptate quos ullam? Esse tempore excepturi corporis recusandae illum in, aperiam suscipit. Exercitationem dignissimos aliquid libero magnam molestias itaque?
-                        and quick and easy to prepare.
-                    </p>
+                   
                     <a class="read-more" href="http://" 
                     target="_self">Read more
                     </a>
@@ -104,12 +69,7 @@
                     </p>
                     <p>
                         Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy .
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos provident voluptate quos ullam? Esse tempore excepturi corporis recusandae illum in, aperiam suscipit. Exercitationem dignissimos aliquid libero magnam molestias itaque?
-                        and quick and easy to prepare.
-                    </p>
-                    <p>
-                        Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy .
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos provident voluptate quos ullam? Esse tempore excepturi corporis recusandae illum in, aperiam suscipit. Exercitationem dignissimos aliquid libero magnam molestias itaque?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos provident voluptate quos ullam? Esse tempore excepturi corporis recusandae illum in, aperiam suscipit. Exercitatio
                         and quick and easy to prepare.
                     </p>
                     <a class="read-more" href="http://" 

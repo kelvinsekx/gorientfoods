@@ -8,17 +8,20 @@ require('./bootstrap');
 
 //window.Vue = require('vue');
 import Vue from 'vue'
+import ImagesCarousel from './components/ImagesCarousel.vue'
+import CarouselControl from './components/CarouselControl'
 
 
 
-
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+// Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
 
 
 const app = new Vue({
     el: '#slider',
-    data:{
+    components:{
+        ImagesCarousel,
+        CarouselControl
     
     }
 });

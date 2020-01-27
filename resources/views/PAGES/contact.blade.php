@@ -1,17 +1,22 @@
 @extends('app')
 @section('content')
-    <h1> contact</h1>
-    <div>
-        <p>Thanks for visiting distinguished,</p>
-        <p>We love the fact that you visit here, we love to partner with you. Send us a message now and see how fast we respond and take your matters seious.</p>
-    </div>
-    <div>
-        <p>However, if you are a potential distributor, and want to be our distributor the right way,</p>
-        <p>Do well to reach us via address, phone or email</p>
-    </div>
+    
     <div class="container">
     <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-9">
+        <h1> contact</h1>
+    <div>
+        <p>Thanks for visiting <strong>distinguished</strong>,</p>
+        <p>We love the fact that you visit here, we &rsquo;d love to partner with you. Send us a message now and see how fast we respond and take your matter with the best intentions.</p>
+    </div>
+    <div class="btn-danger">
+        <p>However, if you are a potential distributor, and want to be our distributor the right way,
+        Do well to reach us via address, phone or email
+        </p>
+       
+    </div>
+        </div>
+        <div class="col-lg-7">
          <form>
          <div class="form-group">
                 <label for="nameInputEmail1">Your name</label>

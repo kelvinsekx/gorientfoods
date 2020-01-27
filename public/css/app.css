@@ -4,7 +4,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  color: #171f1f;
+  color: #333333;
 }
 
 section.company_details {
@@ -16,7 +16,7 @@ section.company_details {
 
 section.company_details article {
   margin: 0 1em;
-  background-color: #fff;
+  background-color: rgba(124, 241, 15, 0.7);
   padding: 0.8em;
 }
 
@@ -81,6 +81,8 @@ section.company_details article:nth-child(1) {
 .WEriut3_1 .stmg {
   background-color: green;
   margin-left: 3rem;
+  padding: 0 1em;
+  height: 38em;
 }
 
 .WEriut3_1 h3.type {
@@ -107,6 +109,8 @@ section.company_details article:nth-child(1) {
 .WEriut3_2 .stmg {
   background-color: green;
   margin-right: 3rem;
+  padding: 0 1em;
+  height: 38em;
 }
 
 .WEriut3_2 h3.type {
