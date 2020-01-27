@@ -1,27 +1,25 @@
 <nav>
-        <div  class="mainNav">
-            <div id="icon" class="non" >
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="navnav d-flex justify-content-end"> 
-                <ul>
-                    <a href=""><li>About Us</li></a>
-                    <a href=""><li>Product</li></a>
-                    <a href=""><li>Quality</li></a>
-                </ul>
-                <a href="" class="pl-2 brand">OLAOLA</a>
-            </div>
-        </div>
-        <div>
-        <div class="magic">
-            <p>About our company:</p>
-            <p>What we do</p>
-            <hr>
-            <br>
-            <p>Know more about us here</p>
-            <p>Life is good with poundo yam</p>
-        </div>
-        </div>
+        <ul>
+            <li>
+                <div id="icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </li>
+            <li><a href="/">GorientFoods</a</li>
+            <li class="collapse-able"><a href="/">Home</a></li>
+            <li class="collapse-able"><a href="/about">About us</a></li>
+            <li class="collapse-able"><a href="/contact">Contact</a></li>
+            <li class="collapse-able drop_down">
+                <a href="http://">Our statement</a>
+                <div class="drop_down_content">
+                    <a href="">vision statement</a>
+                    <a href="">mission statement</a>
+                </div>
+            </li>
+        </ul>
     </nav>
+
+    <!-- //**************mobile navModal -->
+    

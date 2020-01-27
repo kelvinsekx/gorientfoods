@@ -30,14 +30,14 @@
                 <div>
                 <h5>GorientFoods</h5>
                 <p>
-                    <a href="http://www.gorientfoods.com/about" title="About Rixona">About
+                    <a href="/about" title="About Rixona">About
                 GorientFoods</a><br />
                     <a href="http://www.gorientfoods.com/potato-procurement" title="Potato purchase">Yam flour purchase</a><br />
-                    <a href="http://www.gorientfoods.com/products" title="Products">Products &amp;
+                    <a href="/products" title="Products">Products &amp;
                 Markets</a><br />
-                    <a href="http://www.gorientfoods.com/quality" title="Quality">Quality &amp;
+                    <a href="/quality" title="Quality">Quality &amp;
                 Certificates</a><br />
-                    <a href="http://www.gorientfoods.com/contact" title="Contact">Contact</a></p>
+                    <a href="/contact" title="Contact">Contact</a></p>
                 </div>
             </div>
 
@@ -45,11 +45,11 @@
                 <div>
                 <h5>Directly to: </h5>  
                     <p>
-                        <a href="http://www.rixona.com/products/foodservice"
+                        <a href="/products/foodservice"
                         title="Foodservice"><span>Foodservice</span></a><br />
-                        <a href="http://www.rixona.com/products/industry"
+                        <a href="/products/industry"
                         title="B2B"><span>Industry</span></a><br />
-                        <a href="http://www.rixona.com/products/retail"
+                        <a href="/products/retail"
                         title="Retail"><span>Retail</span></a><br />
                         <span>How it's made</span><br />
                         <span>Harvest information</span>

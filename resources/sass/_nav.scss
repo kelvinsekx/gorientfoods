@@ -1,95 +1,156 @@
-*{
-    padding: 0%;
-    margin: 0%;
-}
-nav{
-    background-color: beige;
-    .navnav{
-        font-weight: bold;
-        font-size: large;
-        padding-top: 0.2em;
-        ul{
-            list-style: none;
-            display: inline-flex;
-            li{
-                padding-left: 1em;
-            }
-        }
-        .brand{
-            font-size: larger;
-        }
-    }
+body,*{
+    padding: 0;
+    margin: 0;
+    // box-sizing: border-box;
     
 }
-.mainNav{
-    display: flex;
-    justify-content: space-between;
-}
-nav div.home,.li,.lo, .jo{
-    font-size: 1.9rem;
-    padding: 0.3rem;
-    cursor: pointer;
-}
 #icon{
-    margin: 0.2rem;
     cursor: pointer;
-    z-index: 5;
+    display: none; 
+    margin: 0 8px;
+    flex: 0 0 0;
 }
 #icon:hover{
     opacity: 0.8;
 }
-nav .mainNav #icon span{
+nav #icon span{
     display: block;
-    background-color: #333333;
+    background-color: #eee1e1;
     width: 2.7rem;
     height: 0.34rem;
     margin: 0.3rem 0;
     border-radius: 0.12rem;
     font-weight: 500;
-    transition: 2.4s;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+nav ul li{
+    margin: 0.2em 1em;
+    padding: 0 0.6em;
+    list-style: none;
+}
+nav ul li:nth-child(-n+3):hover{
+    border: 1px solid forestgreen;
+    border-radius: 0.6em ;
+    border-top-color: fuchsia;
+    border-bottom-color: fuchsia;
+}
+nav ul li:first-child{
+    
+    border-radius: 0.6em ;
+}
+nav{
+    background-color: black;
+    line-height: 2.7rem;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    /* justify-content: space-between; */
+    flex: 2 1 200px; 
+}
+.input{
+  flex: 1 1 0;
+}
+.drop_down{
+    position: relative;
+}
+.drop_down_content{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 2px 4px  0px rgba(0,0,0,0.2);
+    z-index:2;
+}
+.drop_down_content a{
+    color: black;
+    padding: 1px 6px;
+    text-decoration: none;
+    display: block;
+}
+.drop_down_content a:hover{
+    color: rgb(66, 230, 66);   
+}
+.drop_down:hover .drop_down_content {
+    display: block;
+    border-radius: 0.2em;
+}
+#mobilenavModal{
+  height:	120%;		
+  margin-top:	-12vh;		
+  position:	relative;		
+  display:	flex;		
+  align-items:	center;	
+  justify-content:	center;
+  background-color: blue;
+}
+#mobilenavModal ul li,#mobilenavModal ul li a{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 1rem;
+}
+ #mobilenavModal ul {
+     position: absolute;
+     top: 34%;
+     left: 45%;
+     font-size: 2rem;
+}
+.modal-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0px 28px 8px;
+    font-size: 5em;
+    font-weight: 900;
+    width: auto;
+    height: auto;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #eee3e3;
+    z-index: 1000;
+    font-weight: 100;
+    line-height: 1;
+    cursor: pointer;
+  } 
+@media only screen and (max-width: 720px) {
+    .collapse-able{
+        display: none;
+    }
+    #mobilenavModal ul {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+   }
+   #icon{
+       display: block;
+   } 
+
 }
 
-.change span:last-child{
-    transform: rotate(-45deg) translate(4px, -8px);   
-}
-.change span:first-child{
-    transform: rotate(25deg) translate(4px, -1px);   
-}
-.change span:nth-child(2){
-    opacity:0;   
-}
-div>section{
-    text-align: center;
-}
-.magic{
-    -webkit-transition: left 0.7s ease;
-    -moz-transition: left 0.7s ease;
-    -ms-transition: left 0.7s ease;
-    -o-transition: left 0.7s ease;
-    transition: left 0.7s ease;
-    background-color: #28dde0;
-    color: rgb(32, 25, 25);
-    cursor: pointer;
-    height: 100vh;
+
+
+
+#modal {
+    display: none;
     position: fixed;
-    top: 3.2rem;
-    left: -38rem;
-    width: 28rem;
-    z-index: 1;
-}
-@media only screen and (max-width: 600px) {
-    .magic{
-        width: 80vw;
-    }
-}
-.magic.change{
+    top: 0;
+    right: 0;
+    bottom: 0;
     left: 0;
-}
-// .magic>p{
-//      background-color: transparent;
-//     -webkit-transform: translateY(-10%);
-//     -ms-transform: translateY(-10%);
-//     transform: translateY(-10%);
-//     margin: 0%;
-//     padding: 0%;
-// }
+    z-index: 2000;
+    background-color: rgba(0,0,0,0.85);
+  }
+
+  .modal-content {
+    height: 100%;
+    max-width: 105vh;
+    padding-top: 12vh;
+    margin: 0 auto;
+    position: relative;
+  }

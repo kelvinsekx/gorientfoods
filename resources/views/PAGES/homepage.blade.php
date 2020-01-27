@@ -1,43 +1,38 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('app')
+@section('content')
+<!-- <div class="slideshow-container">
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="{{asset('/images/product1.jpg')}}" alt="Adebisi Poundo yam flour">
+            <div class="text">Caption Text</div>
+            </div>
 
-        <title>GorientFoods/welcome...</title>
-        <!-- Fonts -->
-        <link rel="stylesheet" href="css/app.css">
-        <link rel="stylesheet" href="css/styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-    </head>
-    <body>
-       <header>
-           <section id="RV445FFfe">
-               <div id="RVsdgt445FFfe">
-                    <div class="ERV445FFfe">
-                       <img src="{{asset('/images/brand.jpg')}}" alt="company brand" width="192" height="90">
-                    </div>
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="{{asset('/images/product1.jpg')}}" alt="Adebisi Poundo yam flour">
+            <div class="text">Caption Two</div>
+            </div>
 
-                    <div class="ERV445FFfe">
-                        <address>
-                            22, ADEOLA STREET, BOLA EXTENSION,
-                            <small>OJOO, IBADAN, OYO STATE.</small>
-                        </address>
-                    </div>
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="{{asset('/images/product1.jpg')}}" alt="Adebisi Poundo yam flour">
+            <div class="text">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-                    <div class="ERV445FFfe">
-                        <span id="phone contact">07038281375,</span>
-                        <span id="phone contact">07038281375</span>
-                        <label for="">Customer care</label>
-                    </div>
-               </div>
-            </section>
-            @include('PARTS.navbarsample')
-       </header>
-       <div id="slider">
-           <!-- <img src=images/fire.png alt="logo" srcset=""> -->
-       </div>
+    </div>
+<br>
 
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div> -->
+ <div id="slider">
+     @{{hey}}
+ </div>
        <main id="siteContent ">
            <section class="company_details">
                <article>
@@ -125,8 +120,4 @@
          </div>
        </main>
 
-       @include('BODY.footer')
-       <script src="{{asset('js/app.js')}}"></script>
-       <script src="{{asset('js/navstyle.js')}}"></script>
-    </body>
-</html>
+@endsection('content')
