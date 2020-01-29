@@ -1994,7 +1994,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      images: ['/images/product1.jpg', '/images/product2.jpg'],
+      images: ['/images/product1.jpg', '/images/product2.jpg', '/images/product3.jpg', '/images/adv.jpg'],
       index: 0
     };
   },
@@ -2024,7 +2024,7 @@ __webpack_require__.r(__webpack_exports__);
         if (_this.index === _this.images.length) {
           _this.index = 0;
         }
-      }, 2500);
+      }, 4000);
     }
   },
   mounted: function mounted() {
@@ -6599,7 +6599,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.image-carousel\t{\t\t\r\n  height:\t100%;\t\t\r\n  position:\trelative;\t\t\r\n  display:\t-webkit-box;\t\t\r\n  display:\tflex;\t\t\r\n  -webkit-box-align:\tcenter;\t\t\r\n          align-items:\tcenter;\t\r\n  -webkit-box-pack:\tcenter;\t\r\n          justify-content:\tcenter;\n}\n.image-carousel\t.controls\t{\t\t\r\n  position:\tabsolute;\t\t\r\n  width:\t100%;\t\t\r\n  display:\t-webkit-box;\t\t\r\n  display:\tflex;\t\t\r\n  -webkit-box-pack:\tjustify;\t\t\r\n          justify-content:\tspace-between;\n}\n.image-carousel\timg\t{\t\t\t\t\r\n    width:\t70%;\n}\n@media only screen and (max-width: 600px) {\n.image-carousel\timg\t{\t\t\t\t\r\n    width:\t80%;\n}\n}\n.image-carousel\t.controls\t{\t\t\r\n  position:\tabsolute;\t\t\r\n  width:\t100%;\t\t\r\n  display:\t-webkit-box;\t\t\r\n  display:\tflex;\t\t\r\n  -webkit-box-pack:\tjustify;\t\t\r\n          justify-content:\tspace-between;\n}\n.dot {\r\n  cursor: pointer;\r\n  height: 15px;\r\n  width: 15px;\r\n  background-color: #bbb;\r\n  border-radius: 50%;\r\n  \r\n  -webkit-transition: background-color 0.6s ease;\r\n  \r\n  transition: background-color 0.6s ease;\r\n  -webkit-box-align: center;\r\n          align-items: center\n}\n.dotes{\r\ntext-align: center;\r\njustify-items: center;\n}\n.active, .dot:hover {\r\n  background-color: #717171;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\n.image-carousel\t{\t\t\r\n  height:\t100%;\t\t\r\n  position:\trelative;\t\t\r\n  display:\t-webkit-box;\t\t\r\n  display:\tflex;\t\t\r\n  -webkit-box-align:\tcenter;\t\t\r\n          align-items:\tcenter;\t\r\n  -webkit-box-pack:\tcenter;\t\r\n          justify-content:\tcenter; \r\n   -webkit-transition: background-color 0.6s ease; \r\n   transition: background-color 0.6s ease;\n}\n.image-carousel\t.controls\t{\t\t\r\n  position:\tabsolute;\t\t\r\n  width:\t100%;\t\t\r\n  display:\t-webkit-box;\t\t\r\n  display:\tflex;\t\t\r\n  -webkit-box-pack:\tjustify;\t\t\r\n          justify-content:\tspace-between;\n}\n.image-carousel\timg\t{\t\t\t\t\r\n    width:\t70%;\n}\n@media only screen and (max-width: 600px) {\n.image-carousel\timg\t{\t\t\t\t\r\n    width:\t80%;\n}\n}\n.image-carousel\t.controls\t{\t\t\r\n  position:\tabsolute;\t\t\r\n  width:\t100%;\t\t\r\n  display:\t-webkit-box;\t\t\r\n  display:\tflex;\t\t\r\n  -webkit-box-pack:\tjustify;\t\t\r\n          justify-content:\tspace-between;\n}\n.dot {\r\n  cursor: pointer;\r\n  height: 15px;\r\n  width: 15px;\r\n  background-color: #bbb;\r\n  border-radius: 50%;\r\n  background-color: #717171;\r\n  -webkit-transition: background-color 0.6s ease;\r\n  transition: background-color 0.6s ease;\r\n  -webkit-box-align: center;\r\n          align-items: center\n}\n.dotes{\r\ntext-align: center;\r\njustify-items: center;\n}\n.active, .dot:hover {\r\n  background-color: #bbb;\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -38127,7 +38127,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", [
     _c("div", { staticClass: "image-carousel mt-2" }, [
-      _c("img", { attrs: { src: _vm.image, width: "200", height: "350" } }),
+      _c("img", { attrs: { src: _vm.image, width: "200", height: "400" } }),
       _vm._v(" "),
       _c(
         "div",

@@ -133,13 +133,14 @@ section.company_details{
 
     
  footer{
-    background-image: linear-gradient(to right, rgb(77, 32, 32) , yellow);
+    background-color: #343334;
      padding: 1em 1.2em;
-    section{
-    display: flex; 
-    .footer_flex{
-        flex: 2;
-    }  
+    section{ 
+    p, .footer_flex{
+        color: wheat;
+       width: 12rem;
+       margin: 0 auto;
+    }
     }
 }
 

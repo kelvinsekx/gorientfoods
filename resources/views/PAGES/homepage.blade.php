@@ -11,7 +11,8 @@
                    <h2>vision</h2>
                    <div>
                        <p>
-                           The vision of our company is to produce a highly rated product among other brands of poundo yam. Best quality at affordable price is our watchword.
+                           The vision of our company is to produce a highly rated product 
+                           among other brands of poundo yam. Best quality at affordable price.
                        </p>
                    </div>
                </article>
@@ -78,6 +79,7 @@
                  </div>
              </section>
          </div>
+         @include('BODY.contact')
        </main>
 
 @endsection('content')

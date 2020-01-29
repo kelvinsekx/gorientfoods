@@ -2,7 +2,7 @@
 <div>
     <div class="image-carousel mt-2">
         
-        <img :src="image" width="200" height="350"/>
+        <img :src="image" width="200" height="400"/>
         
          <div class="controls">				
             <carousel-control 
@@ -31,7 +31,9 @@ import CarouselControl from './CarouselControl.vue'
             return{
                 images:[
                     '/images/product1.jpg',
-                    '/images/product2.jpg'
+                    '/images/product2.jpg',
+                    '/images/product3.jpg',
+                    '/images/adv.jpg'
                  ],
                 index:0,
             }
@@ -58,7 +60,7 @@ import CarouselControl from './CarouselControl.vue'
                     if	(this.index	===	this.images.length)	{	
                         this.index = 0
                     }
-               },2500)
+               },4000)
                }
         },
         mounted: function(){
@@ -78,6 +80,7 @@ import CarouselControl from './CarouselControl.vue'
   display:	flex;		
   align-items:	center;	
   justify-content:	center; 
+   transition: background-color 0.6s ease;
 } 
 .image-carousel	.controls	{		
   position:	absolute;		
@@ -105,7 +108,7 @@ import CarouselControl from './CarouselControl.vue'
   width: 15px;
   background-color: #bbb;
   border-radius: 50%;
-  
+  background-color: #717171;
   transition: background-color 0.6s ease;
   align-items: center
 }
@@ -115,7 +118,7 @@ justify-items: center;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #bbb;
 }
 
 </style>

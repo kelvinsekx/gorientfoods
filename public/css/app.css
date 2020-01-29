@@ -125,19 +125,15 @@ section.company_details article:nth-child(1) {
 }
 
 footer {
-  background-image: -webkit-gradient(linear, left top, right top, from(#4d2020), to(yellow));
-  background-image: linear-gradient(to right, #4d2020, yellow);
+  background-color: #343334;
   padding: 1em 1.2em;
 }
 
-footer section {
-  display: -webkit-box;
-  display: flex;
-}
-
+footer section p,
 footer section .footer_flex {
-  -webkit-box-flex: 2;
-          flex: 2;
+  color: wheat;
+  width: 12rem;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 600px) {
