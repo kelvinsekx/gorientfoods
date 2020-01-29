@@ -7,6 +7,10 @@
   color: #333333;
 }
 
+a {
+  text-decoration: none;
+}
+
 section.company_details {
   display: -webkit-box;
   display: flex;
@@ -53,11 +57,17 @@ section.company_details article:nth-child(1) {
   display: block;
 }
 
-#RVsdgt445FFfe .ERV445FFfe:last-child span {
+#RVsdgt445FFfe .ERV445FFfe:last-child a {
   display: block;
+}
+
+#phone {
+  border: 0.5em solid #751313;
   border-radius: 1em;
-  border: 2px solid forestgreen;
-  padding: 0.4em 1em;
+  padding: 0.2em 0.5em;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bolder;
 }
 
 .WEriut3_1 div img {

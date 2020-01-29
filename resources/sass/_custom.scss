@@ -5,6 +5,9 @@
     margin: 0;
     color: #333333;
 }
+a{
+    text-decoration: none;
+}
 
 //ARTICLE CSS
 //****************************************
@@ -52,16 +55,22 @@ section.company_details{
             }
         }
         .ERV445FFfe:last-child{
-            span{
-                display: block;
-                border-radius: 1em;
-                border: 2px solid forestgreen;
-                padding: 0.4em 1em;
-            }
+                
+                a{
+                    display: block;
+                }
         }
     }
 
 //_________________________________________________
+#phone{
+    border: 0.5em solid rgb(117, 19, 19);
+    border-radius: 1em;
+    padding: 0.2em 0.5em;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
 
 
 .main_wrapper{

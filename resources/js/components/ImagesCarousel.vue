@@ -2,7 +2,7 @@
 <div>
     <div class="image-carousel mt-2">
         
-        <img :src="image" width="200" height="400"/>
+        <img :src="image" width="100em" height="400em"/>
         
          <div class="controls">				
             <carousel-control 
@@ -93,7 +93,7 @@ import CarouselControl from './CarouselControl.vue'
 }
 @media only screen and (max-width: 600px) {
     .image-carousel	img	{				
-    width:	80%;		
+    width:	95%;		
 }
 }
 .image-carousel	.controls	{		

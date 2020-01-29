@@ -12,8 +12,9 @@
                     </div>
 
                     <div class="ERV445FFfe">
-                        <span id="phone contact">080742112770</span>
-                        <label for="">Customer care</label>
+                        Call us NOW
+                        <a href="tel:+234-80-742-112-770" id="phone">+234 80-742-112-770</a>
+                        <label for="phone">Customer care</label>
                     </div>
                </div>
 </section>
