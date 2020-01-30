@@ -1,7 +1,7 @@
 <section id="RV445FFfe">
                <div id="RVsdgt445FFfe">
                     <div class="ERV445FFfe">
-                       <img src="{{asset('/images/companylogo.jpg')}}" alt="company brand" width="192" height="90">
+                       <img src="{{asset('/images/companylogo.jpg')}}" alt="company brand" id="company-brand">
                     </div>
 
                     <div class="ERV445FFfe">

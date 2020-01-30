@@ -65,11 +65,10 @@
                         <h3 class="type">Our plantain flour</h3>
                         <p>
                         Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy .
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos provident voluptate quos ullam? Esse tempore excepturi corporis recusandae illum in, aperiam suscipit. Exercitationem dignissimos aliquid libero magnam molestias itaque?
+                         voluptate quos ullam? Esse tempore excepturi corporis recusandae illum in, aperiam suscipit. Exercitationem dignissimos aliquid libero magnam molestias itaque?
                         and quick and easy to prepare.
                     </p>
                     <p>
-                        Gorient offers a wide variety of potato flakes and potato granules that are tasty, healthy .
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos provident voluptate quos ullam? Esse tempore excepturi corporis recusandae illum in, aperiam suscipit. Exercitatio
                         and quick and easy to prepare.
                     </p>

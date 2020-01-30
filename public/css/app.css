@@ -35,8 +35,8 @@ section.company_details article:nth-child(1) {
 #RVsdgt445FFfe {
   display: -webkit-box;
   display: flex;
-  padding: 3rem 0;
   width: 94vw;
+  padding: 1rem 0;
 }
 
 #RVsdgt445FFfe .ERV445FFfe {
@@ -46,6 +46,11 @@ section.company_details article:nth-child(1) {
 #RVsdgt445FFfe .ERV445FFfe:first-child {
   -webkit-box-flex: 2;
           flex: 2;
+}
+
+#RVsdgt445FFfe .ERV445FFfe:first-child #company-brand {
+  width: 18em;
+  height: 10em;
 }
 
 #RVsdgt445FFfe .ERV445FFfe:nth-child(2) address {
@@ -71,14 +76,6 @@ section.company_details article:nth-child(1) {
   display: block;
 }
 
-.WEriut3_1 div img {
-  width: 40vw;
-}
-
-.WEriut3_2 div img {
-  width: 40vw;
-}
-
 .WEriut3_1 {
   width: 90vw;
   margin: 0 auto;
@@ -89,11 +86,15 @@ section.company_details article:nth-child(1) {
           flex-direction: row;
 }
 
+.WEriut3_1 div img {
+  width: 40vw;
+  height: 25em;
+}
+
 .WEriut3_1 .stmg {
   background-color: green;
   margin-left: 3rem;
   padding: 0 1em;
-  height: 38em;
 }
 
 .WEriut3_1 h3.type {
@@ -117,11 +118,15 @@ section.company_details article:nth-child(1) {
           flex-direction: row-reverse;
 }
 
+.WEriut3_2 div img {
+  width: 40vw;
+  height: 25em;
+}
+
 .WEriut3_2 .stmg {
   background-color: green;
   margin-right: 3rem;
   padding: 0 1em;
-  height: 38em;
 }
 
 .WEriut3_2 h3.type {
@@ -204,7 +209,7 @@ footer section .footer_flex {
 
   #RV445FFfe {
     width: 90vw;
-    margin: 1em auto;
+    margin: 0.2em auto;
     text-align: center;
   }
 
@@ -220,7 +225,7 @@ footer section .footer_flex {
   }
 
   #RVsdgt445FFfe .ERV445FFfe {
-    margin-top: 2rem;
+    margin-top: 1.4rem;
   }
 }
 

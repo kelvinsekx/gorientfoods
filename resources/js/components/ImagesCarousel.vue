@@ -1,6 +1,6 @@
 <template>
 <div>
-    <div class="image-carousel mt-2">
+    <div class="image-carousel">
         
         <img :src="image" width="100em" height="400em"/>
         
@@ -72,15 +72,17 @@ import CarouselControl from './CarouselControl.vue'
 }
 
 </script>
-<style>
+
+<style lang="scss">
     
 .image-carousel	{		
-  height:	100%;		
+  height:	110%;		
   position:	relative;		
   display:	flex;		
   align-items:	center;	
   justify-content:	center; 
-   transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+  margin-top: -1em;
 } 
 .image-carousel	.controls	{		
   position:	absolute;		
@@ -89,11 +91,16 @@ import CarouselControl from './CarouselControl.vue'
   justify-content:	space-between; 
 }
 .image-carousel	img	{				
-    width:	70%;		
+    width:	80%;		
 }
 @media only screen and (max-width: 600px) {
-    .image-carousel	img	{				
-    width:	95%;		
+    
+.image-carousel	{
+    height: 13.5rem;	
+    img	{				
+         width: 98%;
+        height: 100%;
+    }
 }
 }
 .image-carousel	.controls	{		
@@ -114,7 +121,6 @@ import CarouselControl from './CarouselControl.vue'
 }
 .dotes{
 text-align: center;
-justify-items: center;
 }
 
 .active, .dot:hover {

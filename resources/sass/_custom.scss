@@ -32,18 +32,19 @@ section.company_details{
 
 //HEADER SECTION
 //**********************************************
-#RV445FFfe{
-    // height: 20vh;
-}
     #RVsdgt445FFfe{
         display: flex;
-        padding: 3rem 0;
         width: 94vw;
+        padding: 1rem 0;
         .ERV445FFfe{
             margin: 0 1.2em;
         }
         .ERV445FFfe:first-child{
             flex: 2;
+            #company-brand{
+                width: 18em;
+                height: 10em;
+            }
         }
         .ERV445FFfe:nth-child(2){
             address{
@@ -74,32 +75,19 @@ section.company_details{
 }
 
 
-.main_wrapper{
-    //
-}
-.WEriut3_1 div img{
-    width: 40vw;
-}
-.WEriut3_2 div img{
-    width: 40vw;
-}
 .WEriut3_1{
     width: 90vw;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    
-    // .product_img{
-    //     img{
-    //         margin-left: 2em;  
-    //     }
-    //     margin-left: 2em;
-    // }
+     div img{
+        width: 40vw;
+        height: 25em;
+    }
     .stmg{
         background-color: green;
         margin-left: 3rem;
         padding:0 1em;
-        height: 38em;
     }
     h3.type{
        min-height: 40px;
@@ -117,17 +105,14 @@ section.company_details{
     margin: 0 auto;
     display: flex;
     flex-direction: row-reverse;
-    // .product_img{
-    //     img{
-    //         margin-left: 2em;  
-    //     }
-    //     margin-left: 2em;
-    // }
+    div img{
+        width: 40vw;
+        height: 25em;
+    }
     .stmg{
         background-color: green;
         margin-right: 3rem;
         padding:0 1em;
-        height: 38em;
     }
     h3.type{
        min-height: 40px;
@@ -178,6 +163,7 @@ section.company_details{
             text-align: center;
             img{
                 width: 80vw;
+
             }
             .stmg{
                 margin: 0;
@@ -199,7 +185,7 @@ section.company_details{
     }
     #RV445FFfe{
         width: 90vw;
-        margin: 1em auto;
+        margin: 0.2em auto;
         text-align: center;
     }
     #RVsdgt445FFfe{
@@ -211,7 +197,7 @@ section.company_details{
             }
         }
         .ERV445FFfe{
-            margin-top: 2rem;
+            margin-top: 1.4rem;
         }
     }
 }
