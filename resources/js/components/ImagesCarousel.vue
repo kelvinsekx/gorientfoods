@@ -76,7 +76,7 @@ import CarouselControl from './CarouselControl.vue'
 <style lang="scss">
     
 .image-carousel	{		
-  height:	110%;		
+  height:	100%;		
   position:	relative;		
   display:	flex;		
   align-items:	center;	
