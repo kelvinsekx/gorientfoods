@@ -3,7 +3,8 @@
 
 </div>
  <div id="slider">
-     <images-carousel></images-carousel>
+     <images-carousel ></images-carousel>
+     <div v-if="loading">Loading...</div>
  </div>
        <main id="siteContent">
            <div class="company_details">

@@ -19,9 +19,15 @@ import CarouselControl from './components/CarouselControl'
 
 const app = new Vue({
     el: '#slider',
+    data:{
+        loading: true
+    },
     components:{
         ImagesCarousel,
         CarouselControl
     
+    },
+    mounted: function(){
+        this.loading=false
     }
 });

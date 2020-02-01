@@ -1989,7 +1989,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -50354,9 +50353,15 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); //window.
 
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#slider',
+  data: {
+    loading: true
+  },
   components: {
     ImagesCarousel: _components_ImagesCarousel_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
     CarouselControl: _components_CarouselControl__WEBPACK_IMPORTED_MODULE_2__["default"]
+  },
+  mounted: function mounted() {
+    this.loading = false;
   }
 });
 

@@ -3,7 +3,6 @@
     <div class="image-carousel">
         
         <img :src="image" width="100em" height="400em"/>
-        
          <div class="controls">				
             <carousel-control 
             dir="left"
