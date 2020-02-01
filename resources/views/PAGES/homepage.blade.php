@@ -1,7 +1,6 @@
 @extends('app')
 @section('content')
 
-</div>
  <div id="slider">
      <images-carousel ></images-carousel>
      <div v-if="loading">Loading...</div>
