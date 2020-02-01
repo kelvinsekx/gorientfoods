@@ -1,4 +1,4 @@
-<section id="RV445FFfe">
+<div id="RV445FFfe">
                <div id="RVsdgt445FFfe">
                     <div class="ERV445FFfe">
                        <img src="{{asset('/images/companylogo.jpg')}}" alt="company brand" id="company-brand">
@@ -13,8 +13,8 @@
 
                     <div class="ERV445FFfe">
                         Call us NOW
-                        <a href="tel:+234-80-742-112-770" id="phone">+234 80-742-112-770</a>
-                        <label for="phone">Customer care</label>
+                        <a href="tel:+234-80-742-127-70" id="phone">+234-80-742-127-70</a>
+                        
                     </div>
                </div>
-</section>
+</div>

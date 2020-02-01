@@ -96,7 +96,7 @@ import CarouselControl from './CarouselControl.vue'
 @media only screen and (max-width: 600px) {
     
 .image-carousel	{
-    height: 13.5rem;	
+    height: 19.5rem;	
     img	{				
          width: 98%;
         height: 100%;

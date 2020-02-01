@@ -7,28 +7,37 @@
   color: #333333;
 }
 
+a:link,
+a:active,
+a:visited,
 a {
   text-decoration: none;
 }
 
-section.company_details {
+.con-contact {
+  text-align: center;
+  margin: 0 auto;
+  width: 80vw;
+}
+
+.company_details {
   display: -webkit-box;
   display: flex;
   width: 70rem;
   margin: 1rem auto;
 }
 
-section.company_details article {
+.company_details article {
   margin: 0 1em;
   background-color: rgba(124, 241, 15, 0.7);
   padding: 0.8em;
 }
 
-section.company_details article h2 {
+.company_details article h2 {
   text-transform: uppercase;
 }
 
-section.company_details article:nth-child(1) {
+.company_details article:nth-child(1) {
   flex-basis: 2;
 }
 
@@ -74,6 +83,17 @@ section.company_details article:nth-child(1) {
   font-size: 1.3em;
   font-weight: bolder;
   display: block;
+}
+
+#phone-now {
+  display: block;
+  font-size: large;
+  background-color: #b34141;
+  border-top-left-radius: 1rem;
+  padding: 1rem 0;
+  border-top-right-radius: 1rem;
+  color: white;
+  width: 17rem;
 }
 
 .WEriut3_1 {
@@ -145,8 +165,8 @@ footer {
   padding: 1em 1.2em;
 }
 
-footer section p,
-footer section .footer_flex {
+footer p,
+footer .footer_flex {
   color: wheat;
   width: 12rem;
   margin: 0 auto;
@@ -166,7 +186,7 @@ footer section .footer_flex {
 
   .main_wrapper .WEriut3_1 img {
     width: 80vw;
-    height: 20em;
+    height: 22em;
   }
 
   .main_wrapper .WEriut3_1 .stmg {
@@ -184,7 +204,7 @@ footer section .footer_flex {
 
   .main_wrapper .WEriut3_2 img {
     width: 80vw;
-    height: 20em;
+    height: 22em;
   }
 
   .main_wrapper .WEriut3_2 .stmg {
@@ -192,19 +212,19 @@ footer section .footer_flex {
     margin-top: 1rem;
   }
 
-  section.company_details {
+  div.company_details {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
             flex-direction: column;
     width: 80vw;
   }
 
-  section.company_details article {
+  div.company_details article {
     margin-top: 1rem;
     border-radius: 0.3em;
   }
 
-  section.company_details article h2 {
+  div.company_details article h2 {
     font-size: larger;
     font-weight: 990;
   }

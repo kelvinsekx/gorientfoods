@@ -36,13 +36,6 @@
             <li><a href="/">Home</a></li>
             <li class="mobilenav"><a href="/about">About us</a></li>
             <li class="mobilenav"><a href="/contact">Contact</a></li>
-            <li class="mobilenav">
-                <a href="http://">Our statement</a>
-                <div class="drop_down_content">
-                    <a href="">vision statement</a>
-                    <a href="">mission statement</a>
-                </div>
-            </li>
         </ul>
       </div>
         </div>

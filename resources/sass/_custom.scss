@@ -5,13 +5,19 @@
     margin: 0;
     color: #333333;
 }
-a{
+a:link,a:active,a:visited,a{
     text-decoration: none;
 }
+.con-contact{
+    text-align: center;
+    margin: 0 auto;
+    width: 80vw;
+}
+
 
 //ARTICLE CSS
 //****************************************
-section.company_details{
+.company_details{
     display: flex;
     width: 70rem;
     margin: 1rem auto;
@@ -73,7 +79,16 @@ section.company_details{
     font-weight: bolder;
     display: block;
 }
-
+#phone-now{
+    display: block;
+    font-size: large;
+    background-color: rgb(179, 65, 65) ;
+    border-top-left-radius: 1rem;
+    padding: 1rem 0;
+    border-top-right-radius: 1rem;
+    color: white;
+    width: 17rem;
+}
 
 .WEriut3_1{
     width: 90vw;
@@ -130,12 +145,10 @@ section.company_details{
  footer{
     background-color: #343334;
      padding: 1em 1.2em;
-    section{ 
     p, .footer_flex{
         color: wheat;
        width: 12rem;
        margin: 0 auto;
-    }
     }
 }
 
@@ -151,7 +164,7 @@ section.company_details{
             flex-direction: column;
             img{
                 width: 80vw;
-                height: 20em;
+                height: 22em;
             }
             .stmg{
                 margin: 0;
@@ -164,7 +177,7 @@ section.company_details{
             text-align: center;
             img{
                 width: 80vw;
-                height: 20em;
+                height: 22em;
             }
             .stmg{
                 margin: 0;
@@ -172,7 +185,7 @@ section.company_details{
             }
         }
     }
-    section.company_details{
+    div.company_details{
         flex-direction: column;
         width: 80vw;
         article{
