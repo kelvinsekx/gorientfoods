@@ -28,18 +28,17 @@
        @include('BODY.footer')
        <!--:class="{show: modalOpen}"-->
         <div id="modal" > 
-        <div class="modal-close">&times;</div>
-        <div class="modal-content">
-        <div id="mobilenavModal">
-        
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li class="mobilenav"><a href="/about">About us</a></li>
-            <li class="mobilenav"><a href="/contact">Contact</a></li>
-        </ul>
-      </div>
+         <div class="modal-close" data-dismiss="modal" aria-label="Close">&times;</div>
+            <div class="Modal-content">
+                <div id="mobilenavModal">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li class="mobilenav"><a href="/about">About us</a></li>
+                        <li class="mobilenav"><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
        <script src="{{asset('js/app.js')}}"></script>
        <script src="{{asset('js/navstyle.js')}}"></script>
     </body>

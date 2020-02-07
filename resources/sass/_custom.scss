@@ -1,7 +1,4 @@
-[v-cloak]{
-    
-    display: none;
-}
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -209,6 +206,12 @@ a:link,a:active,a:visited,a{
     #RVsdgt445FFfe{
         flex-direction: column;
         padding: 0;
+        .ERV445FFfe:first-child{
+            #company-brand{
+                width: 14em;
+                height: 14em;
+            }
+        }
         .ERV445FFfe:nth-child(2){
             address{
                 font-size: 1rem;

@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
-[v-cloak] {
-  display: none;
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -247,6 +243,11 @@ footer .footer_flex {
     padding: 0;
   }
 
+  #RVsdgt445FFfe .ERV445FFfe:first-child #company-brand {
+    width: 14em;
+    height: 14em;
+  }
+
   #RVsdgt445FFfe .ERV445FFfe:nth-child(2) address {
     font-size: 1rem;
   }
@@ -290,25 +291,22 @@ nav ul li a {
   display: block;
 }
 
-nav ul li {
-  margin: 0.2em 1em;
-  padding: 0 0.6em;
+nav ul li,
+nav ul li a:active {
+  margin: 0em 1em;
+  padding: 0 0.3em;
   list-style: none;
 }
 
-nav ul li:nth-child(-n+3):hover {
-  border: 1px solid forestgreen;
-  border-radius: 0.6em;
-  border-top-color: fuchsia;
-  border-bottom-color: fuchsia;
-}
-
-nav ul li:first-child {
-  border-radius: 0.6em;
+nav ul li a:hover {
+  color: #00ff6a;
+  font-weight: bolder;
+  list-style: none;
+  text-decoration: none;
 }
 
 nav {
-  background-color: black;
+  background-color: #1b1919;
   line-height: 2.7rem;
   display: -webkit-box;
   display: flex;
@@ -358,50 +356,11 @@ nav ul {
   border-radius: 0.2em;
 }
 
-#mobilenavModal {
-  height: 120%;
-  margin-top: -12vh;
-  position: relative;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
-  background-color: blue;
-}
-
-#mobilenavModal ul li,
-#mobilenavModal ul li a {
-  text-decoration: none;
-  list-style: none;
-  margin-top: 1rem;
-}
-
 #mobilenavModal ul {
   position: absolute;
   top: 34%;
   left: 45%;
   font-size: 2rem;
-}
-
-.modal-close {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 0px 28px 8px;
-  font-size: 5em;
-  font-weight: 900;
-  width: auto;
-  height: auto;
-  background: transparent;
-  border: 0;
-  outline: none;
-  color: #eee3e3;
-  z-index: 1000;
-  font-weight: 100;
-  line-height: 1;
-  cursor: pointer;
 }
 
 @media only screen and (max-width: 720px) {
@@ -411,7 +370,7 @@ nav ul {
 
   #mobilenavModal ul {
     position: absolute;
-    top: 30%;
+    top: 24%;
     left: 30%;
   }
 
@@ -428,15 +387,52 @@ nav ul {
   bottom: 0;
   left: 0;
   z-index: 2000;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(26, 228, 77, 0.95);
 }
 
-.modal-content {
+body#modal {
+  overflow: hidden;
+}
+
+.Modal-content {
   height: 100%;
   max-width: 105vh;
   padding-top: 12vh;
   margin: 0 auto;
   position: relative;
+}
+
+#mobilenavModal {
+  height: 100%;
+  position: relative;
+}
+
+#mobilenavModal ul li,
+#mobilenavModal ul li a {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 1rem;
+  color: #f7e7e7;
+  font-weight: bolder;
+}
+
+.modal-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0px 28px 8px;
+  font-size: 5em;
+  font-weight: 900;
+  width: auto;
+  height: auto;
+  background: transparent;
+  border: 0;
+  outline: none;
+  color: #f88181;
+  z-index: 1000;
+  font-weight: 100;
+  line-height: 1;
+  cursor: pointer;
 }
 
 /*!

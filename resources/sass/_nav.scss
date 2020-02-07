@@ -1,8 +1,6 @@
 body,*{
     padding: 0;
-    margin: 0;
-    // box-sizing: border-box;
-    
+    margin: 0; 
 }
 #icon{
     cursor: pointer;
@@ -27,23 +25,19 @@ nav ul li a{
     color: white;
     display: block;
 }
-nav ul li{
-    margin: 0.2em 1em;
-    padding: 0 0.6em;
+nav ul li,nav ul li a:active{
+    margin: 0em 1em;
+    padding: 0 0.3em;
     list-style: none;
 }
-nav ul li:nth-child(-n+3):hover{
-    border: 1px solid forestgreen;
-    border-radius: 0.6em ;
-    border-top-color: fuchsia;
-    border-bottom-color: fuchsia;
-}
-nav ul li:first-child{
-    
-    border-radius: 0.6em ;
+nav ul li a:hover{
+    color: rgb(0, 255, 106);
+    font-weight: bolder;
+    list-style: none;
+    text-decoration: none;
 }
 nav{
-    background-color: black;
+    background-color: rgb(27, 25, 25);
     line-height: 2.7rem;
     display: flex;
     align-items: center;
@@ -80,27 +74,66 @@ nav ul{
     display: block;
     border-radius: 0.2em;
 }
-#mobilenavModal{
-  height:	120%;		
-  margin-top:	-12vh;		
-  position:	relative;		
-  display:	flex;		
-  align-items:	center;	
-  justify-content:	center;
-  background-color: blue;
-}
-#mobilenavModal ul li,#mobilenavModal ul li a{
-    text-decoration: none;
-    list-style: none;
-    margin-top: 1rem;
-}
+
  #mobilenavModal ul {
      position: absolute;
      top: 34%;
      left: 45%;
      font-size: 2rem;
 }
-.modal-close {
+
+@media only screen and (max-width: 720px) {
+    .collapse-able{
+        display: none;
+    }
+    #mobilenavModal ul {
+        position: absolute;
+        top: 24%;
+        left: 30%;
+   }
+   #icon{
+       display: block;
+   } 
+
+}
+
+
+
+//*************************************MODAL STARTS
+#modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: rgba(26, 228, 77, 0.95);
+  }
+body#modal{
+    overflow:	hidden;
+}
+
+  .Modal-content {
+    height: 100%;
+    max-width: 105vh;
+    padding-top: 12vh;
+    margin: 0 auto;
+    position: relative;
+  }
+  #mobilenavModal{
+    height:	100%;		
+    position:	relative;		
+  }
+  #mobilenavModal ul li,#mobilenavModal ul li a{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 1rem;
+    color: rgb(247, 231, 231);
+    font-weight: bolder;
+}
+
+  .modal-close {
     position: absolute;
     right: 0;
     top: 0;
@@ -112,45 +145,9 @@ nav ul{
     background: transparent;
     border: 0;
     outline: none;
-    color: #eee3e3;
+    color: #f88181;
     z-index: 1000;
     font-weight: 100;
     line-height: 1;
     cursor: pointer;
   } 
-@media only screen and (max-width: 720px) {
-    .collapse-able{
-        display: none;
-    }
-    #mobilenavModal ul {
-        position: absolute;
-        top: 30%;
-        left: 30%;
-   }
-   #icon{
-       display: block;
-   } 
-
-}
-
-
-
-
-#modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 2000;
-    background-color: rgba(0,0,0,0.85);
-  }
-
-  .modal-content {
-    height: 100%;
-    max-width: 105vh;
-    padding-top: 12vh;
-    margin: 0 auto;
-    position: relative;
-  }
