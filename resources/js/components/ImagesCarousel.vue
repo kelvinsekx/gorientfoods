@@ -80,7 +80,6 @@ import CarouselControl from './CarouselControl.vue'
   display:	flex;		
   align-items:	center;	
   justify-content:	center; 
-  transition: background-color 0.6s ease;
   margin-top: -1em;
 } 
 .image-carousel	.controls	{		
@@ -90,7 +89,9 @@ import CarouselControl from './CarouselControl.vue'
   justify-content:	space-between; 
 }
 .image-carousel	img	{				
-    width:	80%;		
+    width:	80%;
+    opacity: 1;
+    transition: opacity 1s;		
 }
 @media only screen and (max-width: 600px) {
     

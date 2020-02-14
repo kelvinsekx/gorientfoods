@@ -4,7 +4,7 @@
     <div class="container">
     <div class="row">
         <div class="col-lg-9">
-        <h1> contact</h1>
+        <h1 class="ctu_H1"> Contact Us </h1>
     <div>
         <p>Thanks for visiting <strong>distinguished</strong>,</p>
         <p>We love the fact that you visit here, we &rsquo;d love to partner with you. Send us a message now and see how fast we respond and take your matter with the best intentions.</p>
@@ -17,21 +17,36 @@
     </div>
         </div>
         <div class="col-lg-7">
-         <form>
-         <div class="form-group">
-                <label for="nameInputEmail1">Your name</label>
-                <input type="text" class="form-control" id="nameInputEmail1" placeholder="Name is required">
+         <form action="/post">
+            <div class="form-group">
+                <label for="nameInput">Your name</label>
+                <input 
+                type="text" 
+                class="form-control" 
+                id="nameInput" 
+                placeholder="Name is required"
+                required>
             </div>
             <div class="form-group">
-                <label for="exampleInputEmail">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email is required">
+                <label for="EmailInput">Email address</label>
+                <input
+                type="email" 
+                class="form-control" 
+                id="EmailInput" 
+                placeholder="Email is required"
+                required >
             </div>
+
             <div class="form-group">
-            <label for="yourContent">Content</label>
-            <textarea class="form-control" rows="4" id="yourContent" placeholder="Write something beautiful"></textarea>
+                <label for="yourContent">Content</label>
+                <textarea 
+                class="form-control" 
+                rows="4" id="yourContent" 
+                placeholder="Write something beautiful"
+                required></textarea>
             </div>
             
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" id="submitBtn">Submit for processing</button>
          </form>
         </div>
 </div>

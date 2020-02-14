@@ -1,5 +1,5 @@
 
-*{
+*,*::before, *::after{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -19,11 +19,15 @@ a:link,a:active,a:visited,a{
 //****************************************
 .company_details{
     display: flex;
-    width: 70rem;
+    width: 75rem;
     margin: 1rem auto;
     article{
         h2{
             text-transform: uppercase;
+            font-size: 2rem;
+            line-height: 2.5em;
+            font-weight: 800;
+            letter-spacing: 0.3rem;
         }
         margin: 0 1em;
         background-color:rgba($color: #7cf10fb7, $alpha: 0.7);
@@ -40,6 +44,7 @@ a:link,a:active,a:visited,a{
 //**********************************************
     #RVsdgt445FFfe{
         display: flex;
+        align-items: center;
         width: 94vw;
         padding: 1rem 0;
         .ERV445FFfe{
@@ -48,8 +53,8 @@ a:link,a:active,a:visited,a{
         .ERV445FFfe:first-child{
             flex: 2;
             #company-brand{
-                width: 18em;
-                height: 10em;
+                width: 10.1em;
+                height: 10.1em;
             }
         }
         .ERV445FFfe:nth-child(2){
@@ -71,14 +76,28 @@ a:link,a:active,a:visited,a{
 
 //_________________________________________________
 #phone{
-    border: 0.5em solid rgb(117, 19, 19);
-    border-radius: 1em;
+    border: 0.04em solid rgb(203, 236, 203);
+    background-color:rgb(46, 233, 46) ;
+    color: rgb(68, 68, 235);
+    border-radius: 0.3em;
     padding: 0.2em 0.5em;
     text-decoration: none;
-    font-size: 1.3em;
-    font-weight: bolder;
+    font-size: 1.5em;
     display: block;
 }
+#phone:hover{
+    border: 0.04em solid rgb(195, 240, 195);
+    background-color:rgb(135, 243, 135) ;
+    color: rgb(114, 114, 236);;
+}
+.inlineCall{
+    color: rgb(241, 95, 95);
+}
+.inlineCall:hover{
+    color: #fff;
+}
+
+
 #phone-now{
     display: block;
     font-size: large;
@@ -152,7 +171,28 @@ a:link,a:active,a:visited,a{
        margin: 0 auto;
     }
 }
-
+// contact page styling
+#submitBtn{
+    border: 0.04em solid rgb(203, 236, 203);
+    background-color:rgb(46, 233, 46) ;
+    color: rgb(68, 68, 235);
+    border-radius: 0.3em;
+    padding: 0.2em 0.5em;
+    font-size: 1.2em;
+    width: 20rem;
+}
+#submitBtn:hover{
+    border: 0.04em solid rgb(195, 240, 195);
+    background-color:rgb(135, 243, 135) ;
+    color: rgb(114, 114, 236);;
+}
+.ctu_H1{
+    text-transform: uppercase;
+    font-size: 2rem;
+    line-height: 2.5em;
+    font-weight: 800;
+    letter-spacing: 0.3rem;
+}
 
 
 
@@ -193,8 +233,8 @@ a:link,a:active,a:visited,a{
         margin-top: 1rem;
         border-radius: 0.3em;
         h2{
-            font-size: larger;
-            font-weight: 990;
+            font-size: 1.4rem;
+            font-weight: 790;
         }
         }
     }
@@ -221,5 +261,9 @@ a:link,a:active,a:visited,a{
             margin-top: 1.4rem;
         }
     }
+    #submitBtn{
+        width: 89vw;
+    }
+    
 }
 //_____________________________MOBILE.CSS

@@ -19,14 +19,20 @@
 
     </head>
     <body>
+    
        <header>
-            @include('PARTS.headersection')
-             @include('PARTS.navbar') 
+            @if(Request::is('/'))
+                    @include('PARTS.headersection')
+            @endif
+            @include('PARTS.navbar') 
        </header>
-             @yield('content')
+
+        <div id="slider">
+            @yield('content')
+        </div>
 
        @include('BODY.footer')
-       <!--:class="{show: modalOpen}"-->
+       <!-- Modal nav for mobile-->
         <div id="modal" > 
          <div class="modal-close" data-dismiss="modal" aria-label="Close">&times;</div>
             <div class="Modal-content">

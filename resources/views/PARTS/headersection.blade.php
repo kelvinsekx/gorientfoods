@@ -12,9 +12,7 @@
                     </div>
 
                     <div class="ERV445FFfe">
-                        Call us NOW
-                        <a href="tel:+234-80-742-127-70" id="phone">+234-80-742-127-70</a>
-                        
+                        <a href="tel:+234-80-742-127-70" id="phone"><span class="inlineCall">Call</span> +234-80-742-127-70</a>
                     </div>
                </div>
 </div>

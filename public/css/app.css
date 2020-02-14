@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -23,7 +25,7 @@ a {
 .company_details {
   display: -webkit-box;
   display: flex;
-  width: 70rem;
+  width: 75rem;
   margin: 1rem auto;
 }
 
@@ -35,6 +37,10 @@ a {
 
 .company_details article h2 {
   text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 2.5em;
+  font-weight: 800;
+  letter-spacing: 0.3rem;
 }
 
 .company_details article:nth-child(1) {
@@ -44,6 +50,8 @@ a {
 #RVsdgt445FFfe {
   display: -webkit-box;
   display: flex;
+  -webkit-box-align: center;
+          align-items: center;
   width: 94vw;
   padding: 1rem 0;
 }
@@ -58,8 +66,8 @@ a {
 }
 
 #RVsdgt445FFfe .ERV445FFfe:first-child #company-brand {
-  width: 18em;
-  height: 10em;
+  width: 10.1em;
+  height: 10.1em;
 }
 
 #RVsdgt445FFfe .ERV445FFfe:nth-child(2) address {
@@ -76,13 +84,28 @@ a {
 }
 
 #phone {
-  border: 0.5em solid #751313;
-  border-radius: 1em;
+  border: 0.04em solid #cbeccb;
+  background-color: #2ee92e;
+  color: #4444eb;
+  border-radius: 0.3em;
   padding: 0.2em 0.5em;
   text-decoration: none;
-  font-size: 1.3em;
-  font-weight: bolder;
+  font-size: 1.5em;
   display: block;
+}
+
+#phone:hover {
+  border: 0.04em solid #c3f0c3;
+  background-color: #87f387;
+  color: #7272ec;
+}
+
+.inlineCall {
+  color: #f15f5f;
+}
+
+.inlineCall:hover {
+  color: #fff;
 }
 
 #phone-now {
@@ -173,6 +196,30 @@ footer .footer_flex {
   margin: 0 auto;
 }
 
+#submitBtn {
+  border: 0.04em solid #cbeccb;
+  background-color: #2ee92e;
+  color: #4444eb;
+  border-radius: 0.3em;
+  padding: 0.2em 0.5em;
+  font-size: 1.2em;
+  width: 20rem;
+}
+
+#submitBtn:hover {
+  border: 0.04em solid #c3f0c3;
+  background-color: #87f387;
+  color: #7272ec;
+}
+
+.ctu_H1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 2.5em;
+  font-weight: 800;
+  letter-spacing: 0.3rem;
+}
+
 @media only screen and (max-width: 600px) {
   .main_wrapper {
     text-align: center;
@@ -226,8 +273,8 @@ footer .footer_flex {
   }
 
   div.company_details article h2 {
-    font-size: larger;
-    font-weight: 990;
+    font-size: 1.4rem;
+    font-weight: 790;
   }
 
   #RV445FFfe {
@@ -254,6 +301,10 @@ footer .footer_flex {
 
   #RVsdgt445FFfe .ERV445FFfe {
     margin-top: 1.4rem;
+  }
+
+  #submitBtn {
+    width: 89vw;
   }
 }
 

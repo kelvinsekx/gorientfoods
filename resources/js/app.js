@@ -23,9 +23,7 @@ const app = new Vue({
         loading: true
     },
     components:{
-        ImagesCarousel,
-        CarouselControl
-    
+        ImagesCarousel
     },
     mounted: function(){
         this.loading=false

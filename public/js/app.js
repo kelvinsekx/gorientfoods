@@ -6579,7 +6579,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".image-carousel {\n  height: 100%;\n  position: relative;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n          justify-content: center;\n  -webkit-transition: background-color 0.6s ease;\n  transition: background-color 0.6s ease;\n  margin-top: -1em;\n}\n.image-carousel .controls {\n  position: absolute;\n  width: 100%;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n}\n.image-carousel img {\n  width: 80%;\n}\n@media only screen and (max-width: 600px) {\n.image-carousel {\n    height: 19.5rem;\n}\n.image-carousel img {\n    width: 98%;\n    height: 100%;\n}\n}\n.image-carousel .controls {\n  position: absolute;\n  width: 100%;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n}\n.dot {\n  cursor: pointer;\n  height: 15px;\n  width: 15px;\n  background-color: #bbb;\n  border-radius: 50%;\n  background-color: #717171;\n  -webkit-transition: background-color 0.6s ease;\n  transition: background-color 0.6s ease;\n  -webkit-box-align: center;\n          align-items: center;\n}\n.dotes {\n  text-align: center;\n}\n.active, .dot:hover {\n  background-color: #bbb;\n}", ""]);
+exports.push([module.i, ".image-carousel {\n  height: 100%;\n  position: relative;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n          justify-content: center;\n  margin-top: -1em;\n}\n.image-carousel .controls {\n  position: absolute;\n  width: 100%;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n}\n.image-carousel img {\n  width: 80%;\n  opacity: 1;\n  -webkit-transition: opacity 1s;\n  transition: opacity 1s;\n}\n@media only screen and (max-width: 600px) {\n.image-carousel {\n    height: 19.5rem;\n}\n.image-carousel img {\n    width: 98%;\n    height: 100%;\n}\n}\n.image-carousel .controls {\n  position: absolute;\n  width: 100%;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n}\n.dot {\n  cursor: pointer;\n  height: 15px;\n  width: 15px;\n  background-color: #bbb;\n  border-radius: 50%;\n  background-color: #717171;\n  -webkit-transition: background-color 0.6s ease;\n  transition: background-color 0.6s ease;\n  -webkit-box-align: center;\n          align-items: center;\n}\n.dotes {\n  text-align: center;\n}\n.active, .dot:hover {\n  background-color: #bbb;\n}", ""]);
 
 // exports
 
@@ -50357,8 +50357,7 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
     loading: true
   },
   components: {
-    ImagesCarousel: _components_ImagesCarousel_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    CarouselControl: _components_CarouselControl__WEBPACK_IMPORTED_MODULE_2__["default"]
+    ImagesCarousel: _components_ImagesCarousel_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
   },
   mounted: function mounted() {
     this.loading = false;
