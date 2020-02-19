@@ -43,7 +43,7 @@
                  <div class="stmg">
                         <h3 class="type">Our poundo yam</h3>                     
                     <p>
-                        Ade-Bisi Poundo Yam is also known as iyan, a product made from selected yam tubers for our clientele with a gourmet quality instant iyan for the whole family.Our iyan can be ready to serve within 5 minutes.
+                        Ade-Bisi Poundo Yam is also known as Iyan, a product made from selected yam tubers for our clientele with a gourmet quality instant Iyan for the whole family.Our Iyan can be ready to serve within 5 minutes.
                     </p>
                     <p>
                         As a family owned company, we know how busy our lives are today. With that in mind, we wanted to make a product that would accomodate the modern family, and still provide the dame quality delicious iyan many of us grew up eating.

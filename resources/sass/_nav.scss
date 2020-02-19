@@ -25,16 +25,24 @@ nav ul li a{
     color: white;
     display: block;
 }
+nav ul li a:nth-child(2){
+    color: purple;
+}
+nav ul li:nth-child(2){
+    font-size: 1.4em;
+}
 nav ul li,nav ul li a:active{
     margin: 0em 1em;
     padding: 0 0.3em;
     list-style: none;
+    outline: none;
 }
 nav ul li a:hover{
     color: rgb(0, 255, 106);
     font-weight: bolder;
     list-style: none;
     text-decoration: none;
+    outline:none;
 }
 nav{
     background-color: rgb(27, 25, 25);

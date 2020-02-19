@@ -6579,7 +6579,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".image-carousel {\n  height: 100%;\n  position: relative;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n          justify-content: center;\n  margin-top: -1em;\n}\n.image-carousel .controls {\n  position: absolute;\n  width: 100%;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n}\n.image-carousel img {\n  width: 80%;\n  opacity: 1;\n  -webkit-transition: opacity 1s;\n  transition: opacity 1s;\n}\n@media only screen and (max-width: 600px) {\n.image-carousel {\n    height: 19.5rem;\n}\n.image-carousel img {\n    width: 98%;\n    height: 100%;\n}\n}\n.image-carousel .controls {\n  position: absolute;\n  width: 100%;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n}\n.dot {\n  cursor: pointer;\n  height: 15px;\n  width: 15px;\n  background-color: #bbb;\n  border-radius: 50%;\n  background-color: #717171;\n  -webkit-transition: background-color 0.6s ease;\n  transition: background-color 0.6s ease;\n  -webkit-box-align: center;\n          align-items: center;\n}\n.dotes {\n  text-align: center;\n}\n.active, .dot:hover {\n  background-color: #bbb;\n}", ""]);
+exports.push([module.i, ".image-carousel {\n  height: 100%;\n  position: relative;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n          justify-content: center;\n  margin-top: -1em;\n}\n.image-carousel .controls {\n  position: absolute;\n  width: 100%;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n}\n.image-carousel img {\n  width: 80%;\n  overflow: hidden;\n  opacity: 1;\n  -webkit-transition: opacity 1s;\n  transition: opacity 1s;\n}\n@media only screen and (max-width: 600px) {\n.image-carousel {\n    height: 18.2rem;\n}\n.image-carousel img {\n    width: 100%;\n    height: 99%;\n}\n}\n.image-carousel .controls {\n  position: absolute;\n  width: 100%;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n}\n.dot {\n  cursor: pointer;\n  height: 15px;\n  width: 15px;\n  background-color: #bbb;\n  border-radius: 50%;\n  background-color: #717171;\n  -webkit-transition: background-color 0.6s ease;\n  transition: background-color 0.6s ease;\n  -webkit-box-align: center;\n          align-items: center;\n}\n.dotes {\n  text-align: center;\n}\n.active, .dot:hover {\n  background-color: #bbb;\n}", ""]);
 
 // exports
 
@@ -38126,7 +38126,14 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", [
     _c("div", { staticClass: "image-carousel" }, [
-      _c("img", { attrs: { src: _vm.image, width: "100em", height: "400em" } }),
+      _c("img", {
+        attrs: {
+          src: _vm.image,
+          width: "100em",
+          height: "400em",
+          alt: "Adebisi poundo yam"
+        }
+      }),
       _vm._v(" "),
       _c(
         "div",

@@ -2,7 +2,7 @@
 <div>
     <div class="image-carousel">
         
-        <img :src="image" width="100em" height="400em"/>
+        <img :src="image" width="100em" height="400em" alt="Adebisi poundo yam"/>
          <div class="controls">				
             <carousel-control 
             dir="left"
@@ -90,16 +90,16 @@ import CarouselControl from './CarouselControl.vue'
 }
 .image-carousel	img	{				
     width:	80%;
+    overflow: hidden;
     opacity: 1;
     transition: opacity 1s;		
 }
 @media only screen and (max-width: 600px) {
-    
 .image-carousel	{
-    height: 19.5rem;	
+    height: 18.2rem;	
     img	{				
-         width: 98%;
-        height: 100%;
+         width: 100%;
+        height: 99%;
     }
 }
 }
