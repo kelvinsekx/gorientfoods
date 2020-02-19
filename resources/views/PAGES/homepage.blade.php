@@ -67,7 +67,7 @@
                         Plaintain flour is a staple food in the tropical region of the world. It is rich in iron, Ascorbic acid(Vitamin C), carotene and other vitamins. Plaintain flour is lower in calories than the regular all-purpose flour.
                     </p>
                     <p>
-                        Plaintain flour is a hielthier substitute for wheat flour and the all-purpose flour because it does not contain gluten which is the main protien found in wheat and barley.
+                        Plaintain flour is a healthier substitute for wheat flour and the all-purpose flour because it does not contain gluten which is the main protien found in wheat and barley.
                     </p>
                     
                  </div>
