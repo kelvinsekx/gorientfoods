@@ -1,9 +1,10 @@
 @extends('app')
 @section('content')
 
- <div>
+ <div class="reception">
+     <Intro-Component></Intro-Component>
      <images-carousel ></images-carousel>
-     <div v-if="loading"style="text-align:center;font-size:1.3rem;color:forestgreen;">Loading...</div>
+    <div v-if="loading"style="text-align:center;font-size:1.3rem;color:forestgreen;">Loading...</div>
  </div>
        <main id="siteContent">
            <div class="company_details">
@@ -32,7 +33,7 @@
             </div>
 
          <div class="main_wrapper">
-             <section class="mt-5 WEriut3_2">
+             <section class="WEriut3_2">
              <div>
              <picture>
                 <source media="(max-width: 799px)" srcset="{{asset('/images/smallproduct2.JPG')}}" >
@@ -52,7 +53,7 @@
                  </div>
              </section>
 
-             <section class="mt-5 WEriut3_1">
+             <section class="WEriut3_1">
               <div class="product_img"><picture>
                 <source media="(max-width: 799px)" srcset="{{asset('/images/smallproduct1.JPG')}}" >
                 <source media="(min-width: 800px)" srcset="{{asset('/images/product2.jpg')}}">

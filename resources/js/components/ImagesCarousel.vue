@@ -2,7 +2,7 @@
 <div>
     <div class="image-carousel">
         
-        <img :src="image" width="100em" height="400em" alt="Adebisi poundo yam"/>
+        <img :src="image" width="510em" height="300em" alt="Adebisi poundo yam"/>
          <div class="controls">				
             <carousel-control 
             dir="left"
@@ -14,11 +14,6 @@
             ></carousel-control>						
         </div>
        
-    </div>
-    <div class="dotes">
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
     </div>
 </div>
 </template>
@@ -75,30 +70,26 @@ import CarouselControl from './CarouselControl.vue'
 <style lang="scss">
     
 .image-carousel	{		
-  height:	100%;		
+  height:	100%;
+  width: 100%;		
   position:	relative;		
   display:	flex;		
-  align-items:	center;	
-  justify-content:	center; 
-  margin-top: -1em;
 } 
-.image-carousel	.controls	{		
-  position:	absolute;		
-  width:	100%;		
-  display:	flex;		
-  justify-content:	space-between; 
-}
+// .image-carousel	.controls	{		
+//   position:	absolute;		
+//   width:	100%;		
+//   display:	flex;		
+//   justify-content:	space-between; 
+// }
 .image-carousel	img	{				
-    width:	80%;
     overflow: hidden;
-    opacity: 1;
     transition: opacity 1s;		
 }
 @media only screen and (max-width: 600px) {
 .image-carousel	{
     height: 18.2rem;	
     img	{				
-         width: 100%;
+         width: 100vw;
         height: 99%;
     }
 }

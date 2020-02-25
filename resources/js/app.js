@@ -9,7 +9,7 @@ require('./bootstrap');
 //window.Vue = require('vue');
 import Vue from 'vue'
 import ImagesCarousel from './components/ImagesCarousel.vue'
-import CarouselControl from './components/CarouselControl'
+import IntroComponent from './components/intro/Intro.vue'
 
 
 
@@ -23,7 +23,8 @@ const app = new Vue({
         loading: true
     },
     components:{
-        ImagesCarousel
+        ImagesCarousel,
+        IntroComponent
     },
     mounted: function(){
         this.loading=false
