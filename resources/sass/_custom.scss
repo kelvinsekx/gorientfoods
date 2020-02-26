@@ -17,11 +17,33 @@ a:link,a:active,a:visited,a{
 
 // contact part of home
 .con-contact{
-    background-color: rgb(241, 95, 95);
-    text-align: center;
-    margin: 0 auto;
+    background-color: rgba(233, 45, 45, 0.6);
     color: #fff;
     overflow: hidden;
+    header{
+        font-size:3.5rem;
+        text-align: center;
+    }
+}
+.flex{
+    width:80vw;
+    margin:1rem auto;
+    display:flex;
+    flex-direction: row;
+}
+.note{
+flex: 1;
+    p{
+        font-size: 1.2rem;
+        font-weight:405;
+    }
+}
+.mainContact{
+flex: 1;
+    p{
+        font-size: 1.2rem;
+        font-weight:405;
+    }
 }
 #phone-now{
     display: block;
@@ -230,7 +252,11 @@ a:link,a:active,a:visited,a{
     align-items: center;
 }
 p{
-    margin-top: 1em;
+    margin: 1em 0;
+    font-size: 0.92rem;
+}
+a,button{
+    outline: none;
 }
 
 //**********************MOBILE CSS
@@ -251,13 +277,12 @@ p{
             border-radius: 0.7rem;
             img{
                 width: 89vw;
-                height: 22em;
+                height: 22.3em;
                 border-top-left-radius: 0.7rem;
                 border-top-right-radius: 0.7rem;
             }
             .stmg{
                 margin: 0;
-                margin-top: 0.1rem;
                 border-bottom-left-radius: 0.7rem;
                 border-bottom-right-radius: 0.7rem;
                 h3{
@@ -281,7 +306,6 @@ p{
             }
             .stmg{
                 margin: 0;
-                margin-top: 0.1rem;
                 border-bottom-left-radius: 0.7rem;
                 border-bottom-right-radius: 0.7rem;
                 h3{
@@ -330,6 +354,33 @@ p{
     #submitBtn{
         width: 89vw;
     }
-    
+    // contact part of home
+    .con-contact{
+        background-color: rgba(233, 45, 45, 0.6);
+        color: #fff;
+        overflow: hidden;
+        header{
+            font-size:3.5rem;
+            text-align: center;
+        }
+    }
+    .flex{
+        width:90vw;
+        margin:1rem auto;
+        display:flex;
+        flex-direction: column;
+    }
+    .note{
+        p{
+            font-size: 1rem;
+            text-align: left;
+        }
+    }
+    .mainContact{
+        p{
+            font-size: 1rem;
+            text-align: right;
+        }
+    }
 }
 //_____________________________MOBILE.CSS

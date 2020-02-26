@@ -23,11 +23,44 @@ a {
 }
 
 .con-contact {
-  background-color: #f15f5f;
-  text-align: center;
-  margin: 0 auto;
+  background-color: rgba(233, 45, 45, 0.6);
   color: #fff;
   overflow: hidden;
+}
+
+.con-contact header {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.flex {
+  width: 80vw;
+  margin: 1rem auto;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+}
+
+.note {
+  -webkit-box-flex: 1;
+          flex: 1;
+}
+
+.note p {
+  font-size: 1.2rem;
+  font-weight: 405;
+}
+
+.mainContact {
+  -webkit-box-flex: 1;
+          flex: 1;
+}
+
+.mainContact p {
+  font-size: 1.2rem;
+  font-weight: 405;
 }
 
 #phone-now {
@@ -260,7 +293,13 @@ footer .footer_flex {
 }
 
 p {
-  margin-top: 1em;
+  margin: 1em 0;
+  font-size: 0.92rem;
+}
+
+a,
+button {
+  outline: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -288,14 +327,13 @@ p {
 
   .main_wrapper .WEriut3_1 img {
     width: 89vw;
-    height: 22em;
+    height: 22.3em;
     border-top-left-radius: 0.7rem;
     border-top-right-radius: 0.7rem;
   }
 
   .main_wrapper .WEriut3_1 .stmg {
     margin: 0;
-    margin-top: 0.1rem;
     border-bottom-left-radius: 0.7rem;
     border-bottom-right-radius: 0.7rem;
   }
@@ -325,7 +363,6 @@ p {
 
   .main_wrapper .WEriut3_2 .stmg {
     margin: 0;
-    margin-top: 0.1rem;
     border-bottom-left-radius: 0.7rem;
     border-bottom-right-radius: 0.7rem;
   }
@@ -382,6 +419,37 @@ p {
   #submitBtn {
     width: 89vw;
   }
+
+  .con-contact {
+    background-color: rgba(233, 45, 45, 0.6);
+    color: #fff;
+    overflow: hidden;
+  }
+
+  .con-contact header {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .flex {
+    width: 90vw;
+    margin: 1rem auto;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+  }
+
+  .note p {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .mainContact p {
+    font-size: 1rem;
+    text-align: right;
+  }
 }
 
 body,
@@ -398,9 +466,7 @@ nav {
   display: flex;
   -webkit-box-align: center;
           align-items: center;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 10px;
+  height: 3.5rem;
 }
 
 nav ul {

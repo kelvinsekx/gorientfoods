@@ -6624,7 +6624,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "aside.smsret {\n  width: 30rem;\n}\naside.smsret span {\n  display: block;\n  margin: 1rem 0;\n  font-size: 1.3rem;\n  width: 70%;\n}\nh1 {\n  font-size: 3.3rem;\n}\nh1.reverse {\n  margin-top: -0.6em;\n}\n@media only screen and (max-width: 600px) {\naside.smsret {\n    width: 90vw;\n    margin: 1rem auto;\n    padding: 1rem;\n    text-align: left;\n}\naside.smsret span {\n    width: 90%;\n}\nh1 {\n    font-size: 2.3rem;\n}\nh1.reverse {\n    margin-top: -0.3em;\n}\n}", ""]);
+exports.push([module.i, "aside.smsret {\n  width: 30rem;\n}\naside.smsret span {\n  display: block;\n  margin: 1rem 0;\n  font-size: 1.3rem;\n  width: 70%;\n}\naside.smsret span.bonus {\n  border: 0.04em solid #cbeccb;\n  background-color: #2ee92e;\n  color: #fff;\n  border-radius: 0.3em;\n  padding: 0.2em 0.5em;\n  text-decoration: none;\n  font-size: 1.5em;\n  display: block;\n}\nh1 {\n  font-size: 3.3rem;\n}\nh1.reverse {\n  margin-top: -0.6em;\n}\n@media only screen and (max-width: 600px) {\naside.smsret {\n    width: 95vw;\n    margin: 1rem auto;\n    padding: 1rem;\n    text-align: left;\n}\naside.smsret span {\n    width: 100%;\n}\nh1 {\n    font-size: 2.4rem;\n}\nh1.reverse {\n    margin-top: -0.3em;\n}\n}", ""]);
 
 // exports
 
@@ -38265,7 +38265,7 @@ var render = function() {
       0
     ),
     _vm._v(" "),
-    _c("span", { attrs: { id: "phone" } }, [
+    _c("span", { staticClass: "bonus" }, [
       _vm._v("BONUS _ it get ready in 5 minutes")
     ])
   ])
