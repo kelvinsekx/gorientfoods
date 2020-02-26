@@ -18,7 +18,7 @@
         </div>
         <div class="col-lg-7">
          <form action="/post">
-            <div class="form-group">
+            <div>
                 <label for="nameInput">Your name</label>
                 <input 
                 type="text" 
@@ -27,7 +27,7 @@
                 placeholder="Name is required"
                 required>
             </div>
-            <div class="form-group">
+            <div>
                 <label for="EmailInput">Email address</label>
                 <input
                 type="email" 
@@ -37,7 +37,7 @@
                 required >
             </div>
 
-            <div class="form-group">
+            <div>
                 <label for="yourContent">Content</label>
                 <textarea 
                 class="form-control" 
@@ -46,7 +46,10 @@
                 required></textarea>
             </div>
             
-            <button type="submit" id="submitBtn">Submit for processing</button>
+            <input 
+            type="submit"
+            value="Submit for processing"
+            >
          </form>
         </div>
 </div>
