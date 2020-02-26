@@ -46,21 +46,17 @@ a {
 .note {
   -webkit-box-flex: 1;
           flex: 1;
-}
-
-.note p {
-  font-size: 1.2rem;
-  font-weight: 405;
+  margin: 0 1rem p;
+  margin-font-size: 1.2rem;
+  margin-font-weight: 405;
 }
 
 .mainContact {
   -webkit-box-flex: 1;
           flex: 1;
-}
-
-.mainContact p {
-  font-size: 1.2rem;
-  font-weight: 405;
+  margin: 0 1rem p;
+  margin-font-size: 1.2rem;
+  margin-font-weight: 405;
 }
 
 #phone-now {
